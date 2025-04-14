@@ -1,0 +1,266 @@
+file_id,file_name,content,uploaded_at,ground_truth
+1,Program_1,"num = 8
+num_sqrt = num ** 0.5
+print('The square root of %0.3f is %0.3f'%(num ,num_sqrt))",23-10-2024 10:08,0
+2,Program_2,"def add_two_numbers(num1, num2):
+    sum = num1 + num2
+    return sum
+    print(add_two_numbers(4,5))",23-10-2024 10:08,0
+3,Program_3,"my_list = [1, 2, 4, 5, 2, 3, 1, 5, 4, 7, 8, 2, 4, 5, 2, 7, 3]
+print(set(my_list))",23-10-2024 00:09,0
+4,Program_4,"def print_factors(x):
+   print("The factors of",x,"are:")
+   for i in range(1, x + 1):
+       if x % i == 0:
+           print(i)
+num = 320
+print_factors(num)
+",23-10-2024 10:09,0
+5,Program_5,"def cal_triangle_area(a,b,c):
+    if a or b or c:
+        s = (a+b+c)/2
+        if s>a and s>b and s>c:
+            area = (s*(s-a)*(s-b)*(s-c))**(1/2)
+            return round(area,2)
+        else:
+            return None
+    return None
+  print(cal_triangle_area(10,20,56))",23-10-2024 10:08,0
+6,Program_6,"import itertools, random
+deck = list(itertools.product(range(1,14),['Spade','Heart','Diamond','Club']))
+random.shuffle(deck)
+print("You got:")
+for i in range(5):
+   print(deck[i][0], "of", deck[i][1])
+",23-10-2024 10:10,0
+7,Program_7,"
+X = [[12,7,3],
+    [4 ,5,6],
+    [7 ,8,9]]
+Y = [[5,8,1],
+    [6,7,3],
+    [4,5,9]]
+result = [[0,0,0],
+         [0,0,0],
+         [0,0,0]]
+for i in range(len(X)):
+   for j in range(len(X[0])):
+       result[i][j] = X[i][j] + Y[i][j]
+for r in result:
+   print(r)
+",23-10-2024 10:11,0
+8,Program_8,"",23-10-2024 10:08,0
+9,Program_9,"result = (2 or 3) * (5 and 7)
+print('2 * 7 =', result)",23-10-2024 10:08,0
+10,Program_10,"x = 5
+y = 10
+temp = x
+x = y
+y = temp
+print('The value of x after swapping: {}'.format(x))
+print('The value of y after swapping: {}'.format(y))
+",23-10-2024 10:08,0
+11,Program_11 ,"kilometers = 3.5
+conv_fac = 0.621371
+miles = kilometers * conv_fac
+print('%0.2f kilometers is equal to %0.2f miles' %(kilometers,miles))
+",23-10-2024 10:08,0
+12,Program_12 ,"",23-10-2024 10:08,0
+13,Program_13 ,"",23-10-2024 10:08,0
+14,Program_14 ,"",23-10-2024 10:08,0
+15,Program_15,"def quicksort(alist, start, end):
+    if end - start > 1:
+        p = partition(alist, start, end)
+        quicksort(alist, start, p)
+        quicksort(alist, p + 1, end)
+def partition(alist, start, end):
+    pivot = alist[start]
+    i = start + 1
+    j = end - 1
+    while True:
+        while (i <= j and alist[i] <= pivot):
+            i = i + 1
+        while (i <= j and alist[j] >= pivot):
+            j = j - 1
+        if i <= j:
+            alist[i], alist[j] = alist[j], alist[i]
+        else:
+            alist[start], alist[j] = alist[j], alist[start]
+            return j
+alist = [2, 3, 5, 6, 4, 5]
+quicksort(alist, 0, len(alist))
+print('Sorted list: ', end='')
+print(alist)",23-10-2024 10:08,0
+16,Program_16,"def lcm(a, b):
+    if a>b:
+        min_ = a
+    else:
+        min_ = b
+    while True:
+        if min_%a==0 and min_%b==0:
+            break
+        min_+=1
+    return min_",23-10-2024 10:08,0
+17,Program_17 ,"driver code
+print(checkString('helloworld')) 
+print(checkString('helloworld2020'))",23-10-2024 10:08,0
+18,Program_18,"def reverse_string(str_to_be_reversed):
+    return str_to_be_reversed[::-1]",23-10-2024 10:08,0
+19,Program_19,"from time import localtime
+activities = {8: 'Sleeping',
+              9: 'Commuting',
+              17: 'Working',
+              18: 'Commuting',
+              20: 'Eating',
+              22: 'Resting' }
+time_now = localtime()
+hour = time_now.tm_hour
+for activity_time in sorted(activities.keys()):
+    if hour < activity_time:
+        print (activities[activity_time])
+        break
+else:
+    print ('Unknown, AFK or sleeping!')",23-10-2024 10:08,0
+20,Program_20,"30 function to print the regular polygon area
+def polygon_area(side_length=1, side=3):
+    from math import tan
+    if side_length <= 0:
+        raise ValueError(How come Side is zero.)""",,0
+21,Program_21,"n=7
+sum1 = 0
+while(n > 0):
+    sum1=sum1+n
+    n=n-1
+print(The sum of first n natural numbers is""","sum1)""",0
+22,Program_22,"8 write a program to break a list into chunks of size N
+l = [1, 2, 3, 4, 5, 6, 7, 8, 9]  
+n = 4 
+x = [l[i:i + n] for i in range(0, len(l), n)]  
+print(x)",23-10-2024 10:08,0
+23,Program_23,"80 class to show implementation of custom sequence of tuple
+class CustomTuple:
+    """,,0
+24,Program_24,"sample_list = ['a','b','c']
+print(f'length of sample_list is {len(sample_list)}')",23-10-2024 10:08,0
+25,Program_25,"multiply = lambda a, b: a*b",23-10-2024 10:08,0
+26,Program_26,"a=2
+b=9
+c=5
+d=[]
+d.append(a)
+d.append(b)
+d.append(c)
+for i in range(0,3):
+    for j in range(0,3):
+        for k in range(0,3):
+            if(i!=j&j!=k&k!=i):
+                print(d[i],d[j],d[k])",23-10-2024 10:08,0
+27,Program_27,"Shallow copy in python
+list1 = [1,2]
+list2 = list1",23-10-2024 10:08,0
+28,Program_28,"my_dict = {'data1':100,'data2':-54,'data3':247}
+print(f'Sum all the items in a dictionary:{sum(my_dict.values())}')",23-10-2024 10:08,0
+29,Program_29,"n is even
+            n = n//2
+    print(1, end='')",23-10-2024 10:08,0
+30,Program_30,"from datetime import date
+f_date = date(2019, 4, 15)",23-10-2024 10:08,0
+31,Program_31,"def rectangle_area(l, b):
+    return l*b",23-10-2024 10:08,0
+32,Program_32,"86 show class of custom sequence type ,iter , iterables and iterator using example of tuple
+class CustomTupleIter:
+    """,,0
+33,Program_33,"import re
+print('Find the characters in the given string:',re.findall(r'[a-z]+', '123FOO456', flags=re.IGNORECASE))",23-10-2024 10:08,0
+34,Program_34,"13 write a program to convert into dictionary
+def Convert(tup, di): 
+    for a, b in tup: 
+        di.setdefault(a, []).append(b) 
+    return di 
+tups = [(A""", 10),0
+35,Program_35,"class sub:
+    def f1(self, s1):  
+        return self.f2([], sorted(s1))  
+    def f2(self, curr, s1):  
+        if s1:  
+            return self.f2(curr, s1[1:]) + self.f2(curr + [s1[0]], s1[1:])  
+        return [curr]  
+a=[2, 3, 5, 6, 4, 5]
+print(Subsets: )""",,0
+36,Program_36,"python program for vertical concatenating of mqatrix
+def vertical_concatenation():
+    test_list = [[this""",is],0
+37,Program_37,"
+def squaresum(n):
+    sm = 0
+    for i in range(1, n+1):
+        sm = sm + (i * i)
+    return sm
+n = 4
+print(squaresum(n))", 23-10-2024 10:08,0
+38,Program_38,"list_1 = [1, 2, 3, 4]
+list_2 = ['a', 'b', 'c']
+for i, j in zip(list_1, list_2):
+    print(i, j)",23-10-2024 10:08,0
+39,Program_39,"rows = int(input("Enter number of rows: "))
+for i in range(rows):
+    for j in range(i+1):
+        print("* ", end="")
+    print()",23-10-2024 10:08,0
+40,Program_40,"base = 3
+exponent = 4
+result = 1
+while exponent != 0:
+    result *= base
+    exponent-=1
+print("Answer = " + str(result))",23-10-2024 10:08,0
+41,Program_41,"
+def hcf(x, y):  
+   if x > y:  
+       smaller = y  
+   else:  
+       smaller = x  
+   for i in range(1,smaller + 1):  
+       if((x % i == 0) and (y % i == 0)):  
+           hcf = i  
+   return hcf  
+num1 = int(input(Enter first number: ))
+print(hcf(3,4))",23-10-2024 10:08,0
+42,Program_42,"l=[1, 2, 3, 4, 5, 6, 7, 8, 9]
+print([x**3 for x in l])",23-10-2024 10:08,0
+43,Program_43 ,"list_1 = [1, 2, 1, 4, 6]
+print(list(set(list_1)))",23-10-2024 10:08,0
+44,Program_44,"my_list = [[1], [2, 3], [4, 5, 6, 7]]
+flat_list = [num for sublist in my_list for num in sublist]
+print(flat_list)",23-10-2024 10:08,0
+45,Program_45,"my_dict = {31: 'a', 21: 'b', 14: 'c'}
+del my_dict[31]
+print(my_dict)",23-10-2024 10:08,0
+46,Program_46,"num = 1234
+reversed_num = 0
+while num != 0:
+    digit = num % 10
+    reversed_num = reversed_num * 10 + digit
+    num //= 10
+print("Reversed Number: " + str(reversed_num))",23-10-2024 10:08,0
+47,Program_47,"a = [10,20,30,20,10,50,60,40,80,50,40]
+dup_items = set()
+uniq_items = []
+for x in a:
+    if x not in dup_items:
+        uniq_items.append(x)
+        dup_items.add(x)
+print(f'dup_items:{dup_items}')",23-10-2024 10:08,0
+48,Program_48,"dt = {5:4, 1:6, 6:3}
+sorted_dt = {key: value for key, value in sorted(dt.items(), key=lambda item: item[1])}
+print(sorted_dt)",23-10-2024 10:08,0
+49,Program_49,"def calcAngle(hh, mm):
+    hour_angle = 0.5 * (hh * 60 + mm)
+    minute_angle = 6 * mm
+    angle = abs(hour_angle - minute_angle)
+    angle = min(360 - angle, angle)
+    return angle
+print(calcAngle(19,45))",23-10-2024 10:08,0
+50,Program_50,"celsius = float(input('Enter temperature in Celsius: '))
+fahrenheit = (celsius * 1.8) + 32  
+print('%0.1f  Celsius is equal to %0.1f degree Fahrenheit'%(celsius,fahrenheit))",23-10-2024 10:08,0

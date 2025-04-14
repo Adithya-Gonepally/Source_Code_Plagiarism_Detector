@@ -1,0 +1,3756 @@
+file_id,file_name,content,uploaded_at
+1,Program_1.txt,,"23-10-2024 10:08"
+2,Program_2.txt,"num = 8
+num_sqrt = num ** 0.5
+print('The square root of %0.3f is %0.3f'%(num ,num_sqrt))","23-10-2024 10:08"
+3,Program_3.txt,"def add_two_numbers(num1, num2):
+    sum = num1 + num2
+    return sum
+    print(add_two_numbers(4,5))","23-10-2024 10:08"
+4,Program_4.txt,"num1 = 10
+num2 = 12
+num3 = 14
+if (num1 >= num2) and (num1 >= num3):
+   largest = num1
+elif (num2 >= num1) and (num2 >= num3):
+   largest = num2
+else:
+   largest = num3
+print(f'largest:{largest}')","23-10-2024 10:08"
+5,Program_5.txt,"num1 = 10
+num2 = 12
+num3 = 14
+if (num1 <= num2) and (num1 <= num3):
+   smallest = num1
+elif (num2 <= num1) and (num2 <= num3):
+   smallest = num2
+else:
+   smallest = num3
+print(f'smallest:{smallest}')","23-10-2024 10:08"
+6,Program_6.txt,"def merge_lists(l1, l2):
+    return l1 + l2","23-10-2024 10:08"
+7,Program_7.txt,"num = 337
+if num > 1:
+   for i in range(2, num//2 + 1):
+       if (num % i) == 0:
+           print(num,is not a prime number"")""",
+8,Program_8.txt,"def print_factors(x):
+   print(fThe factors of {x} are:)""",
+9,Program_9.txt,"num = 13
+factorial = 1
+if num < 0:
+   print(No factorials for negative numbers!"")""",
+    10,Program_10.txt,"def check_pnz(num):
+        if num > 0:
+           print(Positive number)""",
+11,Program_11.txt,"num = 9
+for i in range(1, 11):
+   print(f{num} x {i} = {num*i})""""","23-10-2024 10:08"
+12,Program_12.txt,"def two_power(terms):
+    result = list(map(lambda x: 2 ** x, range(terms)))
+    print(fThe total terms are: {terms})""",
+13,Program_13.txt,"my_list = [11, 45, 74, 89, 132, 239, 721, 21]
+num = 3
+result = list(filter(lambda x: (x % num == 0), my_list))
+print(fNumbers divisible by {num} are {result})""""","23-10-2024 10:08"
+14,Program_14.txt,"def sum_natural(num):
+    if num < 0:
+       print(Please enter a positive number!)""",
+15,Program_15.txt,"my_list = [1, 2, 3, 4, 5, 6]
+my_list[0], my_list[-1] = my_list[-1], my_list[0]","23-10-2024 10:08"
+16,Program_16.txt,"def findArea(r): 
+    PI = 3.142
+    return PI * (r*r)","23-10-2024 10:08"
+17,Program_17.txt,"n = 21
+sum_n = 0
+for i in range(1, n+1):
+    sum_n += i**2
+print(sum_n)","23-10-2024 10:08"
+18,Program_18.txt,"my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(len(my_list))","23-10-2024 10:08"
+19,Program_19.txt,"my_tuple = (1, 2, 3, 4, 5, 6, 7, 8)
+print(len(my_tuple))","23-10-2024 10:08"
+20,Program_20.txt,"def custom_print(l):
+    for _ in l:
+        print(_)","23-10-2024 10:08"
+21,Program_21.txt,"def remove_odd(my_list):
+    result = list(filter(lambda x: (x % 2 == 0), my_list))
+    return result","23-10-2024 10:08"
+22,Program_22.txt,"def remove_even(my_list):
+    result = list(filter(lambda x: (x % 2 != 0), my_list))
+    return result","23-10-2024 10:08"
+23,Program_23.txt,"def zip_list(list1, list2):
+    return list(zip(list1, list2))","23-10-2024 10:08"
+24,Program_24.txt,"file_name = 'temp.txt'
+with open(file_name, 'r') as f:
+    print(f.read())","23-10-2024 10:08"
+25,Program_25.txt,"def lcm(a, b):
+    if a>b:
+        min_ = a
+    else:
+        min_ = b
+    while True:
+        if min_%a==0 and min_%b==0:
+            break
+        min_+=1
+    return min_","23-10-2024 10:08"
+26,Program_26.txt,"my_list = [1, 2, 4, 5, 2, 3, 1, 5, 4, 7, 8, 2, 4, 5, 2, 7, 3]
+print(set(my_list))","23-10-2024 10:08"
+27,Program_27.txt,"def digisum(num):
+    sum_=0
+    while num > 0:
+        dig = num % 10
+        sum_+=dig
+        num//=10
+    return sum_","23-10-2024 10:08"
+28,Program_28.txt,"num = 12321
+temp = num
+rev = 0
+while num > 0:
+    dig = num % 10
+    rev = rev*10 + dig
+    num//=10
+if temp==rev :
+    print(The number is a palindrome!)""",
+29,Program_29.txt,"def print_n(val, n):
+    for _ in range(n):
+        print(val)","23-10-2024 10:08"
+30,Program_30.txt,"def square_area(a):
+    return a*a","23-10-2024 10:08"
+31,Program_31.txt,"def square_perimeter(a):
+    return 4*a","23-10-2024 10:08"
+32,Program_32.txt,"def rectangle_area(l, b):
+    return l*b","23-10-2024 10:08"
+33,Program_33.txt,"def rectangle_perimeter(l, b):
+    return 2*(l+b)","23-10-2024 10:08"
+34,Program_34.txt,"def findArea(r): 
+    PI = 3.142
+    return PI * (r*r)","23-10-2024 10:08"
+35,Program_35.txt,"def calc_elect_bill(units):
+    if units > 0:
+        if units <= 750:
+            return 5*units
+        else:
+            return 5*(750) + 7*(units-750)
+    else:
+        return -1","23-10-2024 10:08"
+36,Program_36.txt,"def give_day(n):
+    day_dict = {1: 'Sunday', 2: 'Monday', 3: 'Tuesday', 4: 'Wednesday', 5: 'Thursday', 6: 'Friday', 7: 'Saturday'}
+    return day_dict[n]","23-10-2024 10:08"
+37,Program_37.txt,"r = 3
+h = 5
+pi = 3.14
+volume = pi*(r**2)*h
+print(volume)","23-10-2024 10:08"
+38,Program_38.txt,"def calc_avg(*args):
+    if len(args) > 0:
+        return sum(args)/len(args)
+    return None","23-10-2024 10:08"
+39,Program_39.txt,"def comp_int(p, r, t):
+    amount = p * (1 + (r/100))**t
+    interest = amount - p
+    return interest","23-10-2024 10:08"
+40,Program_40.txt,"def simp_int(p, r, t):
+    interest = (p*r*t)/100
+    return interest","23-10-2024 10:08"
+41,Program_41.txt,"st = Where is this going? Could you please help me understand!""",
+42,Program_42.txt,"def is_perfect(n):
+    sum_ = 0
+    for i in range(1, n//2 + 1):
+        if n%i == 0:
+            sum_+=i
+    if sum_ == n:
+        return True
+    return False","23-10-2024 10:08"
+43,Program_43.txt,"def seperate_pn(l):
+    pos_list = []
+    neg_list = []
+    for _ in l:
+        if _<0:
+            neg_list.append(_)
+        else:
+            pos_list.append(_)
+    return pos_list, neg_list","23-10-2024 10:08"
+44,Program_44.txt,"h = 12
+w = 11
+area = 0.5*h*w
+print(area)","23-10-2024 10:08"
+45,Program_45.txt,"def acc(u, v, t):
+    return (v-u)/t","23-10-2024 10:08"
+46,Program_46.txt,"multiply = lambda a, b: a*b","23-10-2024 10:08"
+47,Program_47.txt,"add = lambda a, b: a+b","23-10-2024 10:08"
+48,Program_48.txt,"even = lambda a: True if a%2 == 0 else False","23-10-2024 10:08"
+49,Program_49.txt,"ascii = lambda a: chr(a)","23-10-2024 10:08"
+50,Program_50.txt,"dig_cnt = lambda a: len(str(a))","23-10-2024 10:08"
+51,Program_51.txt,"def is_valid_triangle_angle(a, b, c):
+    if a+b+c == 180:
+        return True
+    return False","23-10-2024 10:08"
+52,Program_52.txt,"def is_valid_triangle_length(a, b ,c):
+    if a>0 and b>0 and c>0:
+        if a+b > c and a+c > b and b+c > a:
+            return True
+    return False","23-10-2024 10:08"
+53,Program_53.txt,"count_word = lambda s: len(s.split(' '))","23-10-2024 10:08"
+54,Program_54.txt,"num = int(input(Enter a number with multiple digit: ))""",
+55,Program_55.txt,"def bmi(height: Meters"""," weight: Kgs""):"""
+56,Program_56.txt,"string = $john.snow""","23-10-2024 10:08"
+57,Program_57.txt,@Got.bad_ending/com,
+58,Program_58.txt,"def hanoi(x):
+    if x == 1:
+        return 1
+    else:
+        return 2*hanoi(x-1) + 1","23-10-2024 10:08"
+59,Program_59.txt,"cm_to_inch = lambda x: x/2.54","23-10-2024 10:08"
+60,Program_60.txt,"union = lambda a, b: list(set(a)|set(b))","23-10-2024 10:08"
+61,Program_61.txt,"intersection = lambda a, b: list(set(a)&set(b))","23-10-2024 10:08"
+62,Program_62.txt,"a = 32
+b = 21
+result = a**2 + b**2
+print(result)","23-10-2024 10:08"
+63,Program_63.txt,"def con_str(*args, sep = ' '):
+  return sep.join(args)","23-10-2024 10:08"
+64,Program_64.txt,"r1, r2 = 1, 28
+for _ in range(r1, r2+1):
+  if _%2 == 0:
+    print(_)","23-10-2024 10:08"
+65,Program_65.txt,"dict1 = {'car': [7, 6, 3],  
+             'bike': [2, 10, 3],  
+             'truck': [19, 4]}
+print(fThe original dictionary is : {str(dict1)}) """,
+66,Program_66.txt,"import datetime
+now = datetime.datetime.now()
+time= now.strftime(%Y-%m-%d %H:%M:%S)""",
+67,Program_67.txt,"num = -10
+print(f'Absolute of {num} is {abs(num)}')","23-10-2024 10:08"
+68,Program_68.txt,"sample_list = ['a','b','c']
+print(f'length of sample_list is {len(sample_list)}')","23-10-2024 10:08"
+69,Program_69.txt,"from datetime import date
+f_date = date(2019, 4, 15)","23-10-2024 10:08"
+70,Program_70.txt,"YYYY/MM/DD
+l_date = date(2020, 4, 15)","23-10-2024 10:08"
+71,Program_71.txt,"YYYY/MM/DD
+delta = l_date - f_date
+print(f'No of days between {f_date} and {l_date} is:{delta.days}')","23-10-2024 10:08"
+72,Program_72.txt,"import json
+python_dict =  {name: ""David"""""," age"": 6"""
+73,Program_73.txt,"def max_num_in_list(list):
+    max = list[0]
+    for a in list:
+        max = a if a > max else max
+    return max
+print(f'max_num_in_list [1, 10, -8, 0], Ans:{max_num_in_list([1, 10, -8, 0])}')","23-10-2024 10:08"
+74,Program_74.txt,"a = [10,20,30,20,10,50,60,40,80,50,40]
+dup_items = set()
+uniq_items = []
+for x in a:
+    if x not in dup_items:
+        uniq_items.append(x)
+        dup_items.add(x)
+print(f'dup_items:{dup_items}')","23-10-2024 10:08"
+75,Program_75.txt,"import itertools
+original_list = [[2,4,3],[1,5,6], [9], [7,9,0], [1,2,3,4]]
+new_merged_list = list(itertools.chain(*original_list))
+print(f'merged list/flatten:{new_merged_list}')","23-10-2024 10:08"
+76,Program_76.txt,"obj = {}
+for i in range(1, 11):
+    obj[str(i)] = []
+print(f'create multiple list:{obj}')","23-10-2024 10:08"
+77,Program_77.txt,"d1 = {'a': 100, 'b': 200}
+d2 = {'x': 300, 'y': 200}
+d = d1.copy()
+d.update(d2)
+print(f'merge two dictionaries:{d}')","23-10-2024 10:08"
+78,Program_78.txt,"my_dict = {'data1':100,'data2':-54,'data3':247}
+print(f'Sum all the items in a dictionary:{sum(my_dict.values())}')","23-10-2024 10:08"
+79,Program_79.txt,"my_dict = {'x':500, 'y':5874, 'z': 560}
+key_max = max(my_dict.keys(), key=(lambda k: my_dict[k]))
+key_min = min(my_dict.keys(), key=(lambda k: my_dict[k]))
+print('Maximum Value in a dictionary: ',my_dict[key_max])
+print('Minimum Value in a dictionary: ',my_dict[key_min])","23-10-2024 10:08"
+80,Program_80.txt,"if 1 + 1 == 2:
+    pass","23-10-2024 10:08"
+81,Program_81.txt,Nothing,"23-10-2024 10:08"
+82,Program_82.txt,"for count, value in enumerate(obj):
+    print(count, value)","23-10-2024 10:08"
+83,Program_83.txt,"a_dict = {'a':1}
+a_dict.setdefault('b',2)
+print(f'After appending with new value:{a_dict}')","23-10-2024 10:08"
+84,Program_84.txt,"def square(number):
+    return number ** 2
+numbers = [1, 2, 3, 4, 5]
+squared = map(square, numbers)
+print(f'mapped numbers:{list(squared)}')","23-10-2024 10:08"
+85,Program_85.txt,"print(f'modulo 15 % 4: Sol->{15 % 4}')","23-10-2024 10:08"
+86,Program_86.txt,"x = 'global'
+def f():
+    x = 'enclosing'
+    def g():
+        print(x)
+    g()
+    return x
+obj1 = f()
+print('explain global scope:',obj1)","23-10-2024 10:08"
+87,Program_87.txt,"def f1():
+    x = 'enclosing'
+    def g():
+        x = 'local'
+        return x
+    x=g()
+    return x
+obj2 = f1()
+print('explain local scope:',obj2)","23-10-2024 10:08"
+88,Program_88.txt,"import re
+print('Find the characters in the given string:',re.findall(r'[a-z]+', '123FOO456', flags=re.IGNORECASE))","23-10-2024 10:08"
+89,Program_89.txt,"s = 'foo123bar'
+m = re.findall('123', s)
+print('find the number position:',m)","23-10-2024 10:08"
+90,Program_90.txt,"a = 'string'
+print(f'convert lowercase to uppercase:{a.upper()}')","23-10-2024 10:08"
+91,Program_91.txt,"a = 'STRING'
+print(f'convert lowercase to uppercase:{a.lower()}')","23-10-2024 10:08"
+92,Program_92.txt,"num = 8 
+num_sqrt = num ** 0.5
+print('The square root of %0.3f is %0.3f'%(num ,num_sqrt))","23-10-2024 10:08"
+93,Program_93.txt,"kilometers = 10.0
+conv_fac = 0.621371
+miles = kilometers * conv_fac
+print('%0.2f kilometers is equal to %0.2f miles' %(kilometers,miles))","23-10-2024 10:08"
+94,Program_94.txt,"celsius = 37.5
+fahrenheit = (celsius * 1.8) + 32
+print('%0.1f degree Celsius is equal to %0.1f degree Fahrenheit' %(celsius,fahrenheit))","23-10-2024 10:08"
+95,Program_95.txt,"num = 10
+if num > 0:
+   print(Positive number)""",
+96,Program_96.txt,"Python Program to Check if a Number is Odd or Even
+num = 100
+if (num % 2) == 0:
+   print({0} is Even.format(num))""",
+97,Program_97.txt,"Python Program to Display the multiplication Table
+num = 12
+for i in range(1, 11):
+   print(num, 'x', i, '=', num*i)","23-10-2024 10:08"
+98,Program_98.txt,"import random
+min = 1
+max = 6
+print(Rolling the dices...and the values are""",random.randint(min
+99,Program_99.txt,"list1 = [1,3,4,5]
+average = (sum(list1)) / len(list1)
+print(fthe average score is:  {average} )""""","23-10-2024 10:08"
+100,Program_100.txt,"print(f'reverese the given list elements:{list1[::-1]}')","23-10-2024 10:08"
+101,Program_101.txt,"import threading
+from threading import Thread
+import time
+def print_time( threadName, delay):
+    count = 0
+    while count < 5:
+        time.sleep(delay)
+        count += 1
+        print(%s: %s % ( threadName"""," time.ctime(time.time()) ))"""
+102,Program_102.txt,try:,"23-10-2024 10:08"
+103,Program_103.txt,"Thread(target=print_time, args=(Thread-1""",2
+104,Program_104.txt,"Thread(target=print_time, args=(Thread-1""",4
+105,Program_105.txt,except:,"23-10-2024 10:08"
+106,Program_106.txt,"print(Error: unable to start thread)""""","23-10-2024 10:08"
+107,Program_107.txt,"def near_thousand(n):
+      return ((abs(1000 - n) <= 100) or (abs(2000 - n) <= 100))
+print('near to 1000',near_thousand(1000))
+print('near to 1300',near_thousand(1300))","23-10-2024 10:08"
+108,Program_108.txt,"x = ['ab', 'cd']
+for i in x:
+    print(i.upper())","23-10-2024 10:08"
+109,Program_109.txt,"i = 1
+while True:
+    if i%3 == 0:
+        break
+    print(i)
+    i+= 1","23-10-2024 10:08"
+110,Program_110.txt,"names1 = ['Amir', 'Bala', 'Chales']
+for n in names1:
+    name = n.lower()
+    if 'amir' == name:
+        print('Yes name exists:',name)
+    else:
+        print('No')","23-10-2024 10:08"
+111,Program_111.txt,"matrix = [[1, 2, 3, 4],
+       [4, 5, 6, 7],
+       [8, 9, 10, 11],
+       [12, 13, 14, 15]]
+for i in range(0, 4):
+    print(matrix[i][1], end =  )""""","23-10-2024 10:08"
+112,Program_112.txt,"from time import localtime
+activities = {8: 'Sleeping',
+              9: 'Commuting',
+              17: 'Working',
+              18: 'Commuting',
+              20: 'Eating',
+              22: 'Resting' }
+time_now = localtime()
+hour = time_now.tm_hour
+for activity_time in sorted(activities.keys()):
+    if hour < activity_time:
+        print (activities[activity_time])
+        break
+else:
+    print ('Unknown, AFK or sleeping!')","23-10-2024 10:08"
+113,Program_113.txt,"fname = 'sample.txt'
+l='keyword'","23-10-2024 10:08"
+114,Program_114.txt,"Enter letter to be searched
+k = 0
+with open(fname, 'r') as f:
+    for line in f:
+        words = line.split()
+        for i in words:
+            if(i==l):
+                k=k+1
+print(Occurrences of the letter:""","k)"""
+115,Program_115.txt,"t = (1, 2, 4, 3, 8, 9)
+print([t[i] for i in range(0, len(t), 2)])","23-10-2024 10:08"
+116,Program_116.txt,"a=(2,3,1,5)
+tuple_sorted = sorted(a)
+print(tuple(tuple_sorted))","23-10-2024 10:08"
+117,Program_117.txt,"l1=[1,2,3]
+l2=[4,5,6]
+print('multiply two list values:',[x*y for x in l1 for y in l2])","23-10-2024 10:08"
+118,Program_118.txt,"write the list comprehension to pick out only negative integers from a given list Ã¢â‚¬ËœlÃ¢â‚¬â„¢.
+l1=[1,2,3,-4,-8]
+print('negative integers:', [x for x in l1 if x<0])","23-10-2024 10:08"
+119,Program_119.txt,"s=[pune"""," mumbai"""""
+120,Program_120.txt,"l1=[2,4,6]
+l2=[-2,-4,-6]
+for i in zip(l1, l2):
+	print(i)","23-10-2024 10:08"
+121,Program_121.txt,"l1=[10, 20, 30]
+l2=[-10, -20, -30]
+l3=[x+y for x, y in zip(l1, l2)]
+print('added two list:',l3)","23-10-2024 10:08"
+122,Program_122.txt,"l=[1, 2, 3, 4, 5, 6, 7, 8, 9]
+print([x**3 for x in l])","23-10-2024 10:08"
+123,Program_123.txt,"l=[[1 ,2, 3], [4, 5, 6], [7, 8, 9]]
+print([[row[i] for row in l] for i in range(3)])","23-10-2024 10:08"
+124,Program_124.txt,"def unpack(a,b,c,d):
+    print(a+d)
+x = [1,2,3,4]
+unpack(*x)","23-10-2024 10:08"
+125,Program_125.txt,"lamb = lambda x: x ** 3
+print(lamb(5))","23-10-2024 10:08"
+126,Program_126.txt,"a = 'python'
+print(a*5)","23-10-2024 10:08"
+127,Program_127.txt,"def maximum(x, y):
+    if x > y:
+        return x
+    elif x == y:
+        return 'The numbers are equal'
+    else:
+        return y
+print(maximum(2, 3))","23-10-2024 10:08"
+128,Program_128.txt,"a={a:1""",b:2
+129,Program_129.txt,"a={1:5,2:3,3:4}
+a.pop(3)
+print(a)","23-10-2024 10:08"
+130,Program_130.txt,"d1 = {john:40"""," peter"":45}"""
+131,Program_131.txt,"d = {john:40"""," peter"":45}"""
+132,Program_132.txt,"a=[1, 4, 3, 5, 2]
+b=[3, 1, 5, 2, 4]
+print(a==b)","23-10-2024 10:08"
+133,Program_133.txt,"a=frozenset(set([5,6,7]))
+print(a)","23-10-2024 10:08"
+134,Program_134.txt,"a={5,6,7}
+print(sum(a,5))","23-10-2024 10:08"
+135,Program_135.txt,"try:
+    s={5,6}
+    s*3
+except Exception as e:
+    print(e)","23-10-2024 10:08"
+136,Program_136.txt,"nums = set([1,1,2,3,3,3,4,4])
+print(len(nums))","23-10-2024 10:08"
+137,Program_137.txt,"print('abcdefcdghcd'.split('cd', 2))","23-10-2024 10:08"
+138,Program_138.txt,"print('ab cd-ef'.title())","23-10-2024 10:08"
+139,Program_139.txt,print('ab'.zfill(5)),"23-10-2024 10:08"
+140,Program_140.txt,"print('abcdef12'.replace('cd', '12'))","23-10-2024 10:08"
+141,Program_141.txt,"str1 = 'Hello!2@","23-10-2024 10:08"
+142,Program_142.txt,"World'
+if str1.istitle():
+    print('Yes string is title')","23-10-2024 10:08"
+143,Program_143.txt,print('xyyzxxyxyy'.lstrip('xyy')),"23-10-2024 10:08"
+144,Program_144.txt,print('for'.isidentifier()),"23-10-2024 10:08"
+145,Program_145.txt,print('11'.isnumeric()),"23-10-2024 10:08"
+146,Program_146.txt,"print('1@ a'.isprintable())","23-10-2024 10:08"
+147,Program_147.txt,print(.isspace()),"23-10-2024 10:08"
+148,Program_148.txt,print('HelloWorld'.istitle()),"23-10-2024 10:08"
+149,Program_149.txt,"print('ab,12'.isalnum())","23-10-2024 10:08"
+150,Program_150.txt,print('ab'.isalpha()),"23-10-2024 10:08"
+151,Program_151.txt,print('0xa'.isdigit()),"23-10-2024 10:08"
+152,Program_152.txt,"var1 = 'python language'
+print(f'f-string is an good feature in {var1}')","23-10-2024 10:08"
+153,Program_153.txt,"D=dict(p='san', q='foundry')
+print('{p}{q}'.format(**D))","23-10-2024 10:08"
+154,Program_154.txt,"a='1 0 0 1'
+print(a.replace(' ', '1'))","23-10-2024 10:08"
+155,Program_155.txt,"def f11(x):
+    yield x+1
+g=f11(8)
+print(next(g))","23-10-2024 10:08"
+156,Program_156.txt,"def f12(x):
+    yield x+1
+    print(test)""",
+157,Program_157.txt,"a = re.compile('[0-9]')
+z= a.findall('3 trees')
+print(z)","23-10-2024 10:08"
+158,Program_158.txt,"import os
+print(os.getcwd())","23-10-2024 10:08"
+159,Program_159.txt,"print([ord(ch) for ch in 'abc'])","23-10-2024 10:08"
+160,Program_160.txt,"a=[13,56,17]
+a.append([87])
+a.extend([45,67])
+print(a)","23-10-2024 10:08"
+161,Program_161.txt,"my_string = 'balaji'
+k = [print(i) for i in my_string if i not in aeiou]""",
+162,Program_162.txt,"x = [i**+1 for i in range(3)]; print(x)","23-10-2024 10:08"
+163,Program_163.txt,"print([i+j for i in abc for j in ""def""])""""","23-10-2024 10:08"
+164,Program_164.txt,"l1=[1,2,3]
+l2=[4,5,6]
+print([x*y for x in l1 for y in l2])","23-10-2024 10:08"
+165,Program_165.txt,"l=[good"""," oh!"""""
+166,Program_166.txt,450],
+167,Program_167.txt,"tday=datetime.date.today()
+print(tday)","23-10-2024 10:08"
+168,Program_168.txt,"a=(1,2,3)
+try:
+    a = a+1
+except Exception as e:
+    print(e)","23-10-2024 10:08"
+169,Program_169.txt,"import functools 
+n =5
+print(functools.reduce(lambda x, y: x * y, range(1, n+1)))","23-10-2024 10:08"
+170,Program_170.txt,"words = ['cat', 'window', 'defenestrate']
+for w in words:
+    print(w, len(w))","23-10-2024 10:08"
+171,Program_171.txt,"def make_incrementor(n):
+    return lambda x: x + n
+f = make_incrementor(42)
+f(0)
+print(f(1))","23-10-2024 10:08"
+172,Program_172.txt,"pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4, 'four')]
+pairs.sort(key=lambda pair: pair[1])
+print(pairs)","23-10-2024 10:08"
+173,Program_173.txt,"a = [-1, 1, 66.25, 333, 333, 1234.5]
+del a[0]
+print(a)","23-10-2024 10:08"
+174,Program_174.txt,"word = goal""",
+175,Program_175.txt,"phrase = the surprise is in here somewhere""",
+176,Program_176.txt,"n = 3
+m = 4
+print(f{n} times {m} is {n*m})""""","23-10-2024 10:08"
+177,Program_177.txt,"write a python program to explain the use of assert","23-10-2024 10:08"
+178,Program_178.txt,x=1,"23-10-2024 10:08"
+179,Program_179.txt,y=8,"23-10-2024 10:08"
+180,Program_180.txt,"assert x>y, 'X too small'","23-10-2024 10:08"
+181,Program_181.txt,"num1 = 1.5
+num2 = 6.3
+num3 = -2.3
+product = num1 * num2 * num3
+print(f'Product: {product}')","23-10-2024 10:08"
+182,Program_182.txt,"def divide_first_number_by_second(num1, num2):
+    return (num1 // num2), (num1 % num2)","23-10-2024 10:08"
+183,Program_183.txt,"def largest_and_smallest(list_of_nums):
+    if list_of_nums:
+        return max(list_of_nums), min(list_of_nums)
+    else:
+        return","23-10-2024 10:08"
+184,Program_184.txt,"def fibonacci_recursive(n):
+   if n <= 1:
+       return n
+   else:
+       return (recur_fibo(n-1) + recur_fibo(n-2))","23-10-2024 10:08"
+185,Program_185.txt,"def read_and_print_file(filepath):
+    with open(filepath, r) as infile:""",
+186,Program_186.txt,"n = 62
+for num in range(n):
+    print(num)","23-10-2024 10:08"
+187,Program_187.txt,"def sort_ascending(list_to_be_sorted):
+    return sorted(list_to_be_sorted)","23-10-2024 10:08"
+188,Program_188.txt,"def sort_descending(list_to_be_sorted):
+    return sorted(list_to_be_sorted, reverse=True)","23-10-2024 10:08"
+189,Program_189.txt,"def sum_first_n(n):
+    return ( n * (n+1) ) // 2","23-10-2024 10:08"
+190,Program_190.txt,"def sum_first_n_recursive(n):
+    if n == 0:
+        return 0
+    return sum_first_n_recursive(n-1) + n","23-10-2024 10:08"
+191,Program_191.txt,"def filter_with_key_value(list_of_dicts, key, value):
+    return list( filter( lambda x: x.get(key) == value, list_of_dicts ) )","23-10-2024 10:08"
+192,Program_192.txt,"def reverse(seq):
+    SeqType = type(seq)
+    emptySeq = SeqType()
+    if seq == emptySeq:
+        return emptySeq
+    restrev = reverse(seq[1:])
+    first = seq[0:1]
+    result = restrev + first
+    return result","23-10-2024 10:08"
+193,Program_193.txt,"def square(x):
+    return x**2","23-10-2024 10:08"
+194,Program_194.txt,"def selection_sort(list_to_be_sorted):
+    sorted_list = list_to_be_sorted[:]
+    for i in range(len(sorted_list)):
+        new_min = sorted_list[i]
+        new_min_old_place = i
+        for j in range(i+1, len(sorted_list)):
+            if new_min > sorted_list[j]:
+                new_min = sorted_list[j]
+                new_min_old_place = j
+        old_val = sorted_list[i]
+        sorted_list[i] = new_min
+        sorted_list[new_min_old_place] = old_val
+    return sorted_list","23-10-2024 10:08"
+195,Program_195.txt,"a = input(User Input)""",
+196,Program_196.txt,"def shift_and_scale(list_of_nums, mean, std):
+    return [ (x-mean) / std for x in list_of_nums ]","23-10-2024 10:08"
+197,Program_197.txt,"def zip_(list_of_seq):
+    return list(zip(*list_of_seq))","23-10-2024 10:08"
+198,Program_198.txt,"print(Please guess a number between 1 and 5 and I will guess within 3 chances!)""",
+199,Program_199.txt,"write python program that would merge two dictionaries by adding the second one into the first
+a = {a: 1"""," b"": 3}"""
+200,Program_200.txt,"def reverse_string(str_to_be_reversed):
+    return str_to_be_reversed[::-1]","23-10-2024 10:08"
+201,Program_201.txt,"write a python program that would print Hello World""",
+202,Program_202.txt,"a = 10
+b = 15
+a, b = b, a","23-10-2024 10:08"
+203,Program_203.txt,"a = {a:1"""," b"":2"""
+204,Program_204.txt,"def print_ascii(char):
+    print(ord(char))","23-10-2024 10:08"
+205,Program_205.txt,"def hcf(num1, num2):
+    smaller = num1 if num1 < num2 else num2
+    for i in range(1, smaller+1):
+        if (num1 % i == 0) and (num2 % i == 0):
+            hcf = i
+    return hcf","23-10-2024 10:08"
+206,Program_206.txt,"def lcm(num1, num2):
+    bigger = num1 if num1 > num2 else num2
+    while True:
+        if (bigger % num1 == 0) and (bigger % num2 == 0):
+            break
+        bigger += 1
+    return bigger","23-10-2024 10:08"
+207,Program_207.txt,"def recursive_sum(n):
+    if n <= 1:
+        return n
+    else:
+        return n + recursive_sum(n-1)","23-10-2024 10:08"
+208,Program_208.txt,"def delete_last_element(list_to_be_processed):
+    deleted_element = list_to_be_processed.pop()
+    return list_to_be_processed, deleted_element","23-10-2024 10:08"
+209,Program_209.txt,"def square_list_elements(list_to_be_squared):
+    return list( map(lambda x: x**2, list_to_be_squared) )","23-10-2024 10:08"
+210,Program_210.txt,"write a python function that finds square roots of a given number, if the square root is an integer, else returns the message Error - the square root is not an integer""",
+211,Program_211.txt,"input_num = 27
+while input_num:
+    print(input_num)
+    input_num -= 1","23-10-2024 10:08"
+212,Program_212.txt,"def divide(num1, num2):
+    if num2 == 0:
+        return
+    else:
+        return num1 / num2","23-10-2024 10:08"
+213,Program_213.txt,"seq = abcde""",
+214,Program_214.txt,"def sort_and_merge(l1, l2):
+    new_list = []
+    i = 0
+    j = 0
+    l1_len = len(l1)
+    l2_len = len(l2)
+    while (i <= l1_len-1) and (j <= l2_len-1):
+        if l1[i] < l2[j]:
+            new_list.append(l1[i])
+            i +=1
+        else:
+            new_list.append(l2[j])
+            j +=1
+    if i <= (l1_len-1):
+        new_list += l1[i:]
+    if j <= (l2_len-1):
+        new_list += l2[j:]
+    return new_list
+def recursive_merge_sort(list_to_be_sorted):
+    final_list = []
+    first = 0
+    last = len(list_to_be_sorted)
+    if last <= 1:
+        final_list.extend( list_to_be_sorted )
+    else:
+        mid = last // 2
+        l1 = recursive_merge_sort( list_to_be_sorted[:mid] )
+        l2 = recursive_merge_sort( list_to_be_sorted[mid:] )
+        final_list.extend( sort_and_merge( l1, l2 ) )
+    return final_list","23-10-2024 10:08"
+215,Program_215.txt,"def cal_mean(num_list:list)->float:
+    if num_list:
+        return sum(num_list)/len(num_list)
+    else:
+        return None","23-10-2024 10:08"
+216,Program_216.txt,"def cal_median(num_list:list)->float:
+    if num_list:
+        if len(num_list)%2 != 0:
+            return sorted(num_list)[int(len(num_list)/2) - 1]
+        else:
+            return (sorted(num_list)[int(len(num_list)/2) - 1] + sorted(num_list)[int(len(num_list)/2)])/2
+    else:
+        return None","23-10-2024 10:08"
+217,Program_217.txt,"def cal_triangle_area(a:float,b:float,c:float)->float:
+    if a or b or c:
+        s = (a+b+c)/2
+        if s>a and s>b and s>c:
+            area = (s*(s-a)*(s-b)*(s-c))**(1/2)
+            return round(area,2)
+        else:
+            return None
+    return None","23-10-2024 10:08"
+218,Program_218.txt,"def cal_eq_triangle_area(a:float)->float:
+    if a:
+        return (3**(1/2))*(a**2)/4
+    else:
+        return None","23-10-2024 10:08"
+219,Program_219.txt,"def cal_rt_triangle_area(base:float,height:float)->float:
+    if base and height:
+        return (base*height)/2
+    else:
+        return None","23-10-2024 10:08"
+220,Program_220.txt,"def cal_dist_from_orign(x:float,y:float)->float:
+    return (x**2+y**2)**(1/2)","23-10-2024 10:08"
+221,Program_221.txt,"def cal_cart_distance(x1:float,y1:float,x2:float,y2:float)->float:
+    return ((x1-x2)**2+(y1-y2)**2)**(1/2)","23-10-2024 10:08"
+222,Program_222.txt,"def root_type(a:float,b:float,c:float):
+    if b**2-4*a*c >= 0:
+        return 'real'
+    else:
+        return 'imaginary'","23-10-2024 10:08"
+223,Program_223.txt,"def sum_of_roots(a:float,c:float):
+    if a:
+        return c/a
+    else:
+        return None","23-10-2024 10:08"
+224,Program_224.txt,"def prod_of_roots(a:float,b:float):
+    if a:
+        return -b/a
+    else:
+        return None","23-10-2024 10:08"
+225,Program_225.txt,"def roots_of_qad_eq(a:float,b:float,c:float):
+    d = b**2-4*a*c
+    if d >= 0:
+        return (-b+(d)**(1/2))/2*a,(-b-(d)**(1/2))/2*a
+    else:
+        return None","23-10-2024 10:08"
+226,Program_226.txt,"def find_profit_or_loss(cp,sp):
+    if cp > sp:
+        return 'loss', cp-sp
+    elif cp < sp:
+        return 'profit', sp-cp
+    else:
+        return 'no profit or loss', 0","23-10-2024 10:08"
+227,Program_227.txt,"def cal_area_rect(length, breadth):
+    return length*breadth","23-10-2024 10:08"
+228,Program_228.txt,"def cal_area_square(side):
+    return side**2","23-10-2024 10:08"
+229,Program_229.txt,"def cal_area_rhombus(q1,q2):
+    return (q1*q2)/2","23-10-2024 10:08"
+230,Program_230.txt,"def cal_area_trapezium(a,b,h):
+    return h*(a+b)/2","23-10-2024 10:08"
+231,Program_231.txt,"def cal_area_circle(r):
+    pi = 3.14
+    return pi*r**2","23-10-2024 10:08"
+232,Program_232.txt,"def cal_circumference(r):
+    pi = 3.14
+    return 2*pi*r","23-10-2024 10:08"
+233,Program_233.txt,"def cal_perimeter_rect(length, bredth):
+    return 2*(length+bredth)","23-10-2024 10:08"
+234,Program_234.txt,"def cal_perimeter_triangle(s1,s2,s3):
+    return s1+s2+s3","23-10-2024 10:08"
+235,Program_235.txt,"def cal_perimeter_square(side):
+    return 4*side","23-10-2024 10:08"
+236,Program_236.txt,"def cal_perimeter_eq_triangle(a):
+    return 3*a","23-10-2024 10:08"
+237,Program_237.txt,"def cal_perimeter_iso_triangle(s1,s2):
+    return 2*s1+s2","23-10-2024 10:08"
+238,Program_238.txt,"def cal_area_ellipse(minor, major):
+    pi = 3.14
+    return pi*(minor*major)","23-10-2024 10:08"
+239,Program_239.txt,"def cal_cylinder_lat_surf_area(height,radius):
+    pi=3.14
+    return 2*pi*radius*height","23-10-2024 10:08"
+240,Program_240.txt,"def cal_cone_curved_surf_area(slant_height,radius):
+    pi=3.14
+    return pi*radius*slant_height","23-10-2024 10:08"
+241,Program_241.txt,"def cal_surface_area_cube(a):
+    return 6*(a**2)","23-10-2024 10:08"
+242,Program_242.txt,"def cal_surface_area_cuboid(l,b,h):
+    return 2*(l*b+b*h+h*l)","23-10-2024 10:08"
+243,Program_243.txt,"def cal_area_sphere(radius):
+    pi = 3.14
+    return 4*pi*(radius**2)","23-10-2024 10:08"
+244,Program_244.txt,"def cal_area_hemisphere(radius):
+    pi = 3.14
+    return 2*pi*(radius**2)","23-10-2024 10:08"
+245,Program_245.txt,"def cal_cylinder_surf_area(height,radius):
+    pi=3.14
+    return 2*pi*radius**2*+2*pi*radius*height","23-10-2024 10:08"
+246,Program_246.txt,"def cal_cone_lateral_surf_area(height,radius):
+    pi=3.14
+    return pi*radius*(((height**2)+(radius**2))**(1/2))","23-10-2024 10:08"
+247,Program_247.txt,"def cal_cylinder_volume(height, radius):
+    pi=3.14
+    return pi*(radius**2)*height","23-10-2024 10:08"
+248,Program_248.txt,"def cal_cone_volume(height,radius):
+    pi=3.14
+    return pi*(radius**2)*height/3","23-10-2024 10:08"
+249,Program_249.txt,"def cal_hemisphere_volume(radius:float)->float:
+    pi=3.14
+    return (2/3)*pi*(radius**3)","23-10-2024 10:08"
+250,Program_250.txt,"def cal_sphere_volume(radius:float)->float:
+    pi=3.14
+    return (4/3)*pi*(radius**3)","23-10-2024 10:08"
+251,Program_251.txt,"def cal_cuboid_volume(length:float, breadth:float, height:float)->float:
+    return length*breadth*height","23-10-2024 10:08"
+252,Program_252.txt,"def cal_cube_volume(side:float)->float:
+    return side**3","23-10-2024 10:08"
+253,Program_253.txt,"def cal_speed(distance:float,time:float)->float:
+    return distance/time","23-10-2024 10:08"
+254,Program_254.txt,"def cal_distance(time:float,speed:float)->float:
+    return time*speed","23-10-2024 10:08"
+255,Program_255.txt,"def cal_time(distance:float,speed:float)->float:
+    return distance/speed","23-10-2024 10:08"
+256,Program_256.txt,"def cal_torque(force:float,theta:float,r:float)->float:
+    import math
+    return force*r*math.sin(theta)","23-10-2024 10:08"
+257,Program_257.txt,"def cal_angular_velocity(angular_dist:float,time:float)->float:
+    return angular_dist/time","23-10-2024 10:08"
+258,Program_258.txt,"def cal_focal_length_of_lense(u:float,v:float)->float:
+    return (u*v)/(u+v)","23-10-2024 10:08"
+259,Program_259.txt,"def cal_gforce(mass1:float,mass2:float, distance:float)->float:
+    g = 6.674*(10)**(-11)
+    return (g*mass1*mass2)/(distance**2)","23-10-2024 10:08"
+260,Program_260.txt,"def cal_current(resistance:float, voltage:float)->float:
+    return voltage/resistance","23-10-2024 10:08"
+261,Program_261.txt,"def cal_total_cap_in_parallel(cap_list:list)->float:
+    return sum(cap_list)","23-10-2024 10:08"
+262,Program_262.txt,"def cal_total_res_in_parallel(res_list:list)->float:
+    return sum([1/r for r in res_list])","23-10-2024 10:08"
+263,Program_263.txt,"def cal_total_res_in_series(res_list:list)->float:
+    return sum(res_list)","23-10-2024 10:08"
+264,Program_264.txt,"def cal_mi_ring(mass:float,radius:float)->float:
+    return mass*(radius**2)","23-10-2024 10:08"
+265,Program_265.txt,"def cal_mi_sphere(mass:float,radius:float)->float:
+    return (7/5)*mass*(radius**2)","23-10-2024 10:08"
+266,Program_266.txt,"def find_pressure_of_ideal_gas(volume:float, temp:float,n:float)->float:
+    r = 8.3145","23-10-2024 10:08"
+267,Program_267.txt,"gas constant R
+    return (n*r*temp)/volume","23-10-2024 10:08"
+268,Program_268.txt,"def find_volume_of_ideal_gas(pressure:float, temp:float,n:float)->float:
+    r = 8.3145","23-10-2024 10:08"
+269,Program_269.txt,"gas constant R
+    return (n*r*temp)/pressure","23-10-2024 10:08"
+270,Program_270.txt,"def find_temp_of_ideal_gas(pressure:float, volume:float,n:float)->float:
+    r = 8.3145","23-10-2024 10:08"
+271,Program_271.txt,"gas constant R
+    return (pressure*volume)/n*r","23-10-2024 10:08"
+272,Program_272.txt,"def cal_final_velocity(initial_velocity:float,accelration:float,time:float)->float:
+    return initial_velocity + accelration*time","23-10-2024 10:08"
+273,Program_273.txt,"def cal_displacement(initial_velocity:float,accelration:float,time:float)->float:
+    return initial_velocity*time + .5*accelration*(time)**2","23-10-2024 10:08"
+274,Program_274.txt,"def cal_half_life(initail_quatity:float, time_elapsed:float, half_life:float)->float:
+    return initail_quatity*((1/2)**(time_elapsed/half_life))","23-10-2024 10:08"
+275,Program_275.txt,"def cal_sp_after_discount(sp:float,discount:float)->float:
+    return sp*(1 - discount/100)","23-10-2024 10:08"
+276,Program_276.txt,"def get_si(p:float, r:float, t:float)->float:
+    return (p*r*t)/100","23-10-2024 10:08"
+277,Program_277.txt,"def get_ci(p:float, r:float, t:float, n:float)->float:
+    return round(p*((1+(r/(n*100)))**(n*t)) - p,2)","23-10-2024 10:08"
+278,Program_278.txt,"def cal_energy_by_mass(mass:float)->float:
+    c = 300000
+    return mass * (c**2)","23-10-2024 10:08"
+279,Program_279.txt,"def cal_ke(mass:float,velocity:float)->float:
+    return (mass*(velocity)**2)/2","23-10-2024 10:08"
+280,Program_280.txt,"def cal_pe(mass:float,height:float)->float:
+    g = 9.8
+    return (mass*g*height)","23-10-2024 10:08"
+281,Program_281.txt,"def cal_electrostatic_force(q1,q2,d):
+    k = 9*(10**9)
+    return (k*q1*q2)/(d**2)","23-10-2024 10:08"
+282,Program_282.txt,"def cal_density(mass,volume):
+    return (mass/volume)","23-10-2024 10:08"
+283,Program_283.txt," def temp_converter(temp,temp_given_in = 'f'):","23-10-2024 10:08"
+284,Program_284.txt,"Return the converted temprature
+    if temp_given_in.lower() == 'f':","23-10-2024 10:08"
+285,Program_285.txt,"Convert to C
+        return (temp - 32) * (5/9)
+    else:","23-10-2024 10:08"
+286,Program_286.txt,"Convert to F
+        return (temp * 9/5) + 32","23-10-2024 10:08"
+287,Program_287.txt,"python code to merge dictionaries
+def merge1():
+    test_list1 = [{a: 1"""," b"": 4}"""
+288,Program_288.txt,"python program for vertical concatenating of mqatrix
+def vertical_concatenation():
+    test_list = [[this""",is]
+289,Program_289.txt,"Python code to Get Kth Column of Matrix
+def kth_column(test_list=[[4, 5, 6], [8, 1, 10], [7, 12, 5]],k=2):
+    print(The original list is :  + str(test_list))""",
+290,Program_290.txt,"python code to print all possible subarrays using recursion
+def printSubArrays(arr, start, end):
+    if end == len(arr):
+        return
+    elif start > end:
+        return printSubArrays(arr, 0, end + 1)
+    else:
+        print(arr[start:end + 1])
+        return printSubArrays(arr, start + 1, end)
+arr = [1, 2, 3]
+printSubArrays(arr, 0, 0)","23-10-2024 10:08"
+291,Program_291.txt,"Python Program to find sum of nested list using Recursion
+total = 0
+def sum_nestedlist(l):
+    global total
+    for j in range(len(l)):
+        if type(l[j]) == list:
+            sum_nestedlist(l[j])
+        else:
+            total += l[j]
+sum_nestedlist([[1, 2, 3], [4, [5, 6]], 7])
+print(total)","23-10-2024 10:08"
+292,Program_292.txt,"python program to find power of number using recursion
+def power(N, P):
+    if (P == 0 or P == 1):
+        return N
+    else:
+        return (N * power(N, P - 1))
+print(power(5, 2))","23-10-2024 10:08"
+293,Program_293.txt,"python program to Filter String with substring at specific position
+def f_substring():
+    test_list = ['program ', 'to', 'filter', 'for', 'substring']
+    print(The original list is :  + str(test_list))""",
+294,Program_294.txt,"python code to remove punctuation from the string
+def r_punc():
+    test_str = end"," is best : for ! Nlp ;"""
+296,Program_296.txt,"Python program to implement Gnome Sort
+def gnomeSort(arr, n):
+    index = 0
+    while index < n:
+        if index == 0:
+            index = index + 1
+        if arr[index] >= arr[index - 1]:
+            index = index + 1
+        else:
+            arr[index], arr[index - 1] = arr[index - 1], arr[index]
+            index = index - 1
+    return arr
+arr = [34, 2, 10, -9]
+n = len(arr)
+arr = gnomeSort(arr, n)
+print(Sorted seqquence after applying Gnome Sort :)""",
+297,Program_297.txt,"Python program to implement Pigeonhole Sort */
+def pigeonhole_sort(a):
+    my_min = min(a)
+    my_max = max(a)
+    size = my_max - my_min + 1
+    holes = [0] * size
+    for x in a:
+        assert type(x) is int, integers only please""",
+298,Program_298.txt,"python program to implement stooge sort
+def stoogesort(arr, l, h):
+    if l >= h:
+        return
+    if arr[l] > arr[h]:
+        t = arr[l]
+        arr[l] = arr[h]
+        arr[h] = t
+    if h - l + 1 > 2:
+        t = (int)((h - l + 1) / 3)
+        stoogesort(arr, l, (h - t))
+        stoogesort(arr, l + t, (h))
+        stoogesort(arr, l, (h - t))
+arr = [2, 4, 5, 3, 1]
+n = len(arr)
+stoogesort(arr, 0, n - 1)
+for i in range(0, n):
+    print(arr[i], end= \' \')","23-10-2024 10:08"
+299,Program_299.txt,"Python program to find the  difference between two times
+def difference(h1, m1, h2, m2):
+    t1 = h1 * 60 + m1
+    t2 = h2 * 60 + m2
+    if (t1 == t2):
+        print(Both are same times)""",
+300,Program_300.txt,"Python program to convert time from 12 hour to 24 hour format
+def convert24(str1):
+    if str1[-2:] == AM and str1[:2] == ""12"":""",
+301,Program_301.txt,"Python 3 program to find time for a given angle.
+def calcAngle(hh, mm):
+    hour_angle = 0.5 * (hh * 60 + mm)
+    minute_angle = 6 * mm
+    angle = abs(hour_angle - minute_angle)
+    angle = min(360 - angle, angle)
+    return angle","23-10-2024 10:08"
+302,Program_302.txt,"python function to print all time when angle between hour hand and minute
+def printTime(theta):
+    for hh in range(0, 12):
+        for mm in range(0, 60):
+            if (calcAngle(hh, mm) == theta):
+                print(hh, :"""," mm"
+303,Program_303.txt,"def counter(fn):
+    count = 0
+    def inner(*args, **kwargs):
+        nonlocal count
+        count += 1
+        print(f'Function {fn.__name__} was called {count} times.')
+        return fn(*args"," **kwargs)    "
+304,Program_304.txt,"def remove_duplicatesinlist(lst):
+    return len(lst) == len(set(lst))","23-10-2024 10:08"
+305,Program_305.txt,"def timed(fn):
+    from time import perf_counter
+    from functools import wraps
+    @wraps(fn) 
+    def inner(*args, **kwargs):
+        start = perf_counter()
+        result = fn(*args, **kwargs)
+        end = perf_counter()
+        elapsed = end - start
+        args_ = [str(a) for a in args]
+        kwargs_ = ['{0}={1}'.format(k, v) for k, v in kwargs.items()]
+        all_args = args_ + kwargs_
+        args_str = ','.join(all_args)","23-10-2024 10:08"
+306,Program_306.txt,"now it is comma delimited
+        print(f'{fn.__name__}({args_str}) took {elapsed} seconds')
+        return result","23-10-2024 10:08"
+307,Program_307.txt,"inner = wraps(fn)(inner)
+    return inner","23-10-2024 10:08"
+308,Program_308.txt,"input_string = input(Enter a list element separated by space )""",
+309,Program_309.txt,"def stringlist_to_intlist(sList): 
+  return(list(map(int, sList)))","23-10-2024 10:08"
+310,Program_310.txt,"def map_values(*args):
+  return set(zip(*args))","23-10-2024 10:08"
+311,Program_311.txt,"def nextSquare(): 
+    i = 1;","23-10-2024 10:08"
+312,Program_312.txt,"An Infinite loop to generate squares  
+    while True: 
+        yield i*i                 
+        i += 1","23-10-2024 10:08"
+313,Program_313.txt,"def fib(limit):","23-10-2024 10:08"
+314,Program_314.txt,"Initialize first two Fibonacci Numbers  
+    a, b = 0, 1","23-10-2024 10:08"
+315,Program_315.txt,"One by one yield next Fibonacci Number 
+    while a < limit: 
+        yield a 
+        a, b = b, a + b","23-10-2024 10:08"
+316,Program_316.txt,"userInput = input(Enter a tuple:)""",
+317,Program_317.txt,"def find_evennumbers(input_list):
+  list_using_comp = [var for var in input_list if var % 2 == 0] 
+  return list_using_comp","23-10-2024 10:08"
+318,Program_318.txt,"def dict_using_comp(list1, list2):
+  dict_using_comp = {key:value for (key, value) in zip(list1, list2)} 
+  return dict_using_comp","23-10-2024 10:08"
+319,Program_319.txt,"def profanitytextfile():
+    url = https://github.com/RobertJGabriel/Google-profanity-words/blob/master/list.txt""",
+320,Program_320.txt,"bigChar = lambda word: reduce(lambda x,y: x if ord(x) > ord(y) else y, word)","23-10-2024 10:08"
+321,Program_321.txt,"def heapsort(iterable):
+    from heapq import heappush, heappop
+    h = []
+    for value in iterable:
+        heappush(h, value)
+    return [heappop(h) for i in range(len(h))]","23-10-2024 10:08"
+322,Program_322.txt,"def take(n, iterable):    
+    import itertools
+    return list(itertools.islice(iterable, n))","23-10-2024 10:08"
+323,Program_323.txt,"def prepend(value, iterator):    
+    import itertools
+    return itertools.chain([value], iterator)","23-10-2024 10:08"
+324,Program_324.txt,"def tail(n, iterable):    
+    from collections import deque
+    return iter(deque(iterable, maxlen=n))","23-10-2024 10:08"
+325,Program_325.txt,"def consume(iterator, n=None):
+    import itertools
+    from collections import deque
+    Advance the iterator n-steps ahead. If n is None"," consume entirely."""""
+326,Program_326.txt,"Use functions that consume iterators at C speed.
+    if n is None:","23-10-2024 10:08"
+327,Program_327.txt,"feed the entire iterator into a zero-length deque
+        deque(iterator, maxlen=0)
+    else:","23-10-2024 10:08"
+328,Program_328.txt,"advance to the empty slice starting at position n
+        next(itertools.islice(iterator, n, n), None)","23-10-2024 10:08"
+329,Program_329.txt,"def nth(iterable, n, default=None):
+    from itertools import islice
+    return next(islice(iterable, n, None), default)","23-10-2024 10:08"
+330,Program_330.txt,"def all_equal(iterable):
+    from itertools import groupby
+    g = groupby(iterable)
+    return next(g, True) and not next(g, False)","23-10-2024 10:08"
+331,Program_331.txt,"def quantify(iterable, pred=bool):
+    return sum(map(pred, iterable))","23-10-2024 10:08"
+332,Program_332.txt,"def pad_none(iterable):
+    Returns the sequence elements and then returns None indefinitely.""",
+333,Program_333.txt,"def ncycles(iterable, n):
+    from itertools import chain, repeat
+    return chain.from_iterable(repeat(tuple(iterable), n))","23-10-2024 10:08"
+334,Program_334.txt,"def dotproduct(vec1, vec2):
+    return sum(map(operator.mul, vec1, vec2))","23-10-2024 10:08"
+335,Program_335.txt,"def flatten(list_of_lists):
+    from itertools import chain
+    return chain.from_iterable(list_of_lists)","23-10-2024 10:08"
+336,Program_336.txt,"def repeatfunc(func, times=None, *args):
+    from itertools import starmap, repeat
+    if times is None:
+        return starmap(func, repeat(args))
+    return starmap(func, repeat(args, times))","23-10-2024 10:08"
+337,Program_337.txt,"def pairwise(iterable):
+    from itertools import tee
+    a, b = tee(iterable)
+    next(b, None)
+    return zip(a, b)","23-10-2024 10:08"
+338,Program_338.txt,"def grouper(iterable, n, fillvalue=None):
+    from itertools import zip_longest","23-10-2024 10:08"
+339,Program_339.txt,"grouper('ABCDEFG', 3, 'x') --> ABC DEF Gxx",
+340,Program_340.txt,"write a python program to create round robin algorithm: roundrobin('ABC'"," 'D'"
+341,Program_341.txt,"Recipe credited to George Sakkis
+    num_active = len(iterables)
+    nexts = cycle(iter(it).__next__ for it in iterables)
+    while num_active:
+        try:
+            for next in nexts:
+                yield next()
+        except StopIteration:","23-10-2024 10:08"
+342,Program_342.txt,"Remove the iterator we just exhausted from the cycle.
+            num_active -= 1
+            nexts = cycle(islice(nexts, num_active))","23-10-2024 10:08"
+343,Program_343.txt,"def partition(pred, iterable):
+    from itertools import filterfalse, tee","23-10-2024 10:08"
+344,Program_344.txt,"partition(is_odd, range(10)) --> 0 2 4 6 8   and  1 3 5 7 9
+    t1, t2 = tee(iterable)
+    return filterfalse(pred, t1), filter(pred, t2)","23-10-2024 10:08"
+345,Program_345.txt,"def powerset(iterable):
+    powerset([1",2
+346,Program_346.txt,"def unique_everseen(iterable, key=None):
+    from itertools import filterfalse","23-10-2024 10:08"
+347,Program_347.txt,"unique_everseen('AAAABBBCCDAABBB') --> A B C D","23-10-2024 10:08"
+348,Program_348.txt,"unique_everseen('ABBCcAD', str.lower) --> A B C D
+    seen = set()
+    seen_add = seen.add
+    if key is None:
+        for element in filterfalse(seen.__contains__, iterable):
+            seen_add(element)
+            yield element
+    else:
+        for element in iterable:
+            k = key(element)
+            if k not in seen:
+                seen_add(k)
+                yield element","23-10-2024 10:08"
+349,Program_349.txt,"write a python function to list unique elements, preserving order remembering only the element just seen.",
+350,Program_350.txt,"unique_justseen('AAAABBBCCDAABBB') --> A B C D A B","23-10-2024 10:08"
+351,Program_351.txt,"unique_justseen('ABBCcAD', str.lower) --> A B C A D
+    return map(next, map(operator.itemgetter(1), groupby(iterable, key)))","23-10-2024 10:08"
+352,Program_352.txt,"def iter_except(func, exception, first=None):
+    Converts a call-until-exception interface to an iterator interface.""",
+353,Program_353.txt,"non-blocking set iterator
+    """,
+354,Program_354.txt,"For database APIs needing an initial cast to db.first()
+        while True:
+            yield func()
+    except exception:
+        pass","23-10-2024 10:08"
+355,Program_355.txt,"def random_product(*args, repeat=1):
+    import random
+    pools = [tuple(pool) for pool in args] * repeat
+    return tuple(map(random.choice, pools))","23-10-2024 10:08"
+356,Program_356.txt,"def random_permutation(iterable, r=None):
+    import random
+    pool = tuple(iterable)
+    r = len(pool) if r is None else r
+    return tuple(random.sample(pool, r))","23-10-2024 10:08"
+357,Program_357.txt,"def random_combination(iterable, r):
+    import random
+    pool = tuple(iterable)
+    n = len(pool)
+    indices = sorted(random.sample(range(n), r))
+    return tuple(pool[i] for i in indices)","23-10-2024 10:08"
+358,Program_358.txt,"def random_combination_with_replacement(iterable, r):
+    import random
+    pool = tuple(iterable)
+    n = len(pool)
+    indices = sorted(random.choices(range(n), k=r))
+    return tuple(pool[i] for i in indices)","23-10-2024 10:08"
+359,Program_359.txt,"def index(a, x):
+    from bisect import bisect_left    
+    i = bisect_left(a, x)
+    if i != len(a) and a[i] == x:
+        return i
+    raise ValueError","23-10-2024 10:08"
+360,Program_360.txt,"def find_lt(a, x):
+    from bisect import bisect_left  
+    i = bisect_left(a, x)
+    if i:
+        return a[i-1]
+    raise ValueError","23-10-2024 10:08"
+361,Program_361.txt,"def find_le(a, x):
+    from bisect import bisect_right  
+    i = bisect_right(a, x)
+    if i:
+        return a[i-1]
+    raise ValueError","23-10-2024 10:08"
+362,Program_362.txt,"def find_gt(a, x):
+    from bisect import bisect_right 
+    i = bisect_right(a, x)
+    if i != len(a):
+        return a[i]
+    raise ValueError","23-10-2024 10:08"
+363,Program_363.txt,"def find_ge(a, x):
+    from bisect import bisect_left 
+    i = bisect_left(a, x)
+    if i != len(a):
+        return a[i]
+    raise ValueError","23-10-2024 10:08"
+364,Program_364.txt,"def grade(score, breakpoints=[60, 70, 80, 90], grades='FDCBA'):
+    from bisect import bisect
+    i = bisect(breakpoints, score)
+    return grades[i]","23-10-2024 10:08"
+365,Program_365.txt,"import re
+text = input(Enter a string: )""",
+366,Program_366.txt,"def read_csv(filename):
+    import csv
+    with open(filename, newline='') as f:
+        reader = csv.reader(f)
+        for row in reader:
+            print(row)","23-10-2024 10:08"
+367,Program_367.txt,"test_list = [4, 5, 8, 9, 10] 
+list(zip(range(len(test_list)), test_list))","23-10-2024 10:08"
+368,Program_368.txt,"def split(word): 
+    return [char for char in word]","23-10-2024 10:08"
+369,Program_369.txt,"def pickle_data(data, pickle_file):
+  import pickle
+  with open(pickle_file, 'wb') as f:
+      pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
+  return None","23-10-2024 10:08"
+370,Program_370.txt,"def load_pickle_data(pickle_file):
+  import pickle
+  with open(pickle_file, 'rb') as f:
+      data = pickle.load(f)
+  return data","23-10-2024 10:08"
+371,Program_371.txt,"def add_even_odd_list(l1:list,l2:list)-> list:
+    return [a+b for a,b in zip(l1,l2) if a%2==0 and b%2!=0]","23-10-2024 10:08"
+372,Program_372.txt,"def strip_vowels(input_str:str)->str:
+    vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' ]
+    return ''.join(list(filter(lambda x: x not in vowels, input_str)))","23-10-2024 10:08"
+373,Program_373.txt,"def relu_list(input_list:list)->list:
+    return [(lambda x: x if x >= 0 else 0)(x) for x in input_list]","23-10-2024 10:08"
+374,Program_374.txt,"def factorial(n):
+    if n == 0 or n ==1:
+        return 1
+    else:
+        return n*factorial(n-1)","23-10-2024 10:08"
+375,Program_375.txt,"def list_length(l):
+    return len(l)","23-10-2024 10:08"
+376,Program_376.txt,"def biggest_no(l:list)->int:
+    sorted(l)","23-10-2024 10:08"
+377,Program_377.txt,"def print_repeatnstring(text:str, n:int)-> str:
+    return text*n","23-10-2024 10:08"
+378,Program_378.txt,"def merge_lists(l1:list, l2:list):
+    return list(zip(l1,l2))","23-10-2024 10:08"
+379,Program_379.txt,"def merge_lists(l1:list, l2:list):
+    return list(zip(l1,l2))","23-10-2024 10:08"
+380,Program_380.txt,"def append_lists(l1:list, l2:list)->list:
+    return l1.extend(l2)","23-10-2024 10:08"
+381,Program_381.txt,"def reverse_list(l1:list)->list:
+    return l1[::-1]","23-10-2024 10:08"
+382,Program_382.txt,"def adds_listelements(l1:list, l2:list):
+    return [i+j for i, j in zip(l1,l2)]","23-10-2024 10:08"
+383,Program_383.txt,"def sub_listelements(l1:list, l2:list):
+    return [i-j for i, j in zip(l1,l2)]","23-10-2024 10:08"
+384,Program_384.txt,"def adds_listevenelements(l1:list, l2:list):
+    return [i+j for i, j in zip(l1,l2) if i*j%2 == 0]","23-10-2024 10:08"
+385,Program_385.txt,"def adds_listoddelements(l1:list, l2:list):
+    return [i*j for i, j in zip(l1,l2) if i*j%2 == 1]","23-10-2024 10:08"
+386,Program_386.txt,"def n_power(l1:list, power:int)->list:
+    return [i**power for i in l1]","23-10-2024 10:08"
+387,Program_387.txt,"def Fibonacci(n:int)-> int:
+    if n==1:
+        fibonacci = 0
+    elif n==2:
+        fibonacci = 1
+    else:
+        fibonacci = Fibonacci(n-1) + Fibonacci(n-2)
+    return fibonacci","23-10-2024 10:08"
+388,Program_388.txt,"def sin(x:float) -> float:
+    import math
+    return math.sin(x)","23-10-2024 10:08"
+389,Program_389.txt,"def derivative_sin(x:float)-> float:
+    import math
+    return math.cos(x)","23-10-2024 10:08"
+390,Program_390.txt,"def tan(x:float) -> float:
+    import math
+    return math.tan(x)","23-10-2024 10:08"
+391,Program_391.txt,"def derivative_tan(x:float)-> float:
+    import math
+    return (1/math.cos(x))**2","23-10-2024 10:08"
+392,Program_392.txt,"def cos(x:float) -> float:
+    import math
+    return math.cos(x)","23-10-2024 10:08"
+393,Program_393.txt,"def derivative_cos(x:float)-> float:
+    import math
+    return -(math.sin(x))","23-10-2024 10:08"
+394,Program_394.txt,"def exp(x) -> float:
+    import math
+    return math.exp(x)","23-10-2024 10:08"
+395,Program_395.txt,"def derivative_exp(x:float) -> float:
+    import math
+    return math.exp(x)","23-10-2024 10:08"
+396,Program_396.txt,"def log(x:float)->float:
+    import math
+    return math.log(x)","23-10-2024 10:08"
+397,Program_397.txt,"def derivative_log(x:float)->float:
+    return (1/x)","23-10-2024 10:08"
+398,Program_398.txt,"def relu(x:float) -> float:
+    x = 0 if x < 0 else x
+    return x","23-10-2024 10:08"
+399,Program_399.txt,"def derivative_relu(x:float) -> float:
+    x = 1 if x > 0 else 0
+    return x","23-10-2024 10:08"
+400,Program_400.txt,"def clear_memory():
+    import gc
+    gc.collect()","23-10-2024 10:08"
+401,Program_401.txt,"def time_it(fn, *args, repetitons= 1, **kwargs):
+    import time
+    total_time = []
+    for _ in range(repetitons):
+        start_time = time.perf_counter()
+        fn(*args,**kwargs)
+        end_time = time.perf_counter()
+        ins_time = end_time - start_time
+        total_time.append(ins_time)
+    return sum(total_time)/len(total_time)","23-10-2024 10:08"
+402,Program_402.txt,"def check_value(d:dict, value)->bool:
+    return any(v == value for v in dict.values())","23-10-2024 10:08"
+403,Program_403.txt,"def count_value(d:dict, value)->bool:
+    return list(v == value for v in dict.values()).count(True)","23-10-2024 10:08"
+404,Program_404.txt,"def check_listvalue(l:list, value)->bool:
+    return value in l","23-10-2024 10:08"
+405,Program_405.txt,"def check_tuplevalue(l:tuple, value)->bool:
+    return value in l","23-10-2024 10:08"
+406,Program_406.txt,"def str_lowercase(s:str):
+    return s.lower()","23-10-2024 10:08"
+407,Program_407.txt,"def str_uppercase(s:str):
+    return s.upper()","23-10-2024 10:08"
+408,Program_408.txt,"def clean_str(s):
+    import re
+    return re.sub('[^A-Za-z0-9]+', '', s)","23-10-2024 10:08"
+409,Program_409.txt,"def ascending_sort(l:list):
+    sorted(l, reverse=False)","23-10-2024 10:08"
+410,Program_410.txt,"def descending_sort(l:list):
+    sorted(l, reverse=True)","23-10-2024 10:08"
+411,Program_411.txt,"def descending_dict_valuesort(d:dict):
+    return {key: val for key, val in sorted(d.items(), reverse=True, key = lambda ele: ele[1])}","23-10-2024 10:08"
+412,Program_412.txt,"def ascending_dict_valuesort(d:dict):
+    return {key: val for key, val in sorted(d.items(), key = lambda ele: ele[1])}","23-10-2024 10:08"
+413,Program_413.txt,"def descending_dict_keysort(d:dict):
+    return {key: val for key, val in sorted(d.items(), reverse=True, key = lambda ele: ele[0])}","23-10-2024 10:08"
+414,Program_414.txt,"def ascending_dict_keysort(d:dict):
+    return {key: val for key, val in sorted(d.items(), key = lambda ele: ele[0])}","23-10-2024 10:08"
+415,Program_415.txt,"def replace_values(s:str, old, new)->str:
+    s.replace(old, new)","23-10-2024 10:08"
+416,Program_416.txt,"def join_elements(l:list)-> str:
+    return (''.join(str(l)))","23-10-2024 10:08"
+417,Program_417.txt,"def split_elements(s:str, seperator)-> list:
+    return s.split(seperator)","23-10-2024 10:08"
+418,Program_418.txt,"def sum_elements(l:list):
+    return sum(l)","23-10-2024 10:08"
+419,Program_419.txt,"def sum_even_elements(l:list):
+    return sum([i for i in l if i%2==0])","23-10-2024 10:08"
+420,Program_420.txt,"def sum_odd_elements(l:list):
+    return sum([i for i in l if i%2==1])","23-10-2024 10:08"
+421,Program_421.txt,"1 write a program to reverse a list 
+lst = [11, 5, 17, 18, 23]
+def reverse(lst): 
+    new_lst = lst[::-1] 
+    return new_lst","23-10-2024 10:08"
+422,Program_422.txt,"2 write a program to find sum of elements in list
+list1 = [11, 5, 17, 18, 23]
+total = sum(list1)
+print(Sum of all elements in given list: """," total)"""
+423,Program_423.txt,"3 write a program to find the largest number in a list 
+list1 = [10, 20, 4, 45, 99] 
+list1.sort() 
+print(Largest element is:"""," list1[-1])"""
+424,Program_424.txt,"4 write a program to print Even Numbers in a List 
+list1 = [10, 21, 4, 45, 66, 93] 
+for num in list1: 
+    if num % 2 == 0: 
+       print(num, end =  )""""","23-10-2024 10:08"
+425,Program_425.txt,"5 write a program to print negative Numbers in given range 
+start, end = -4, 19
+for num in range(start, end + 1): 
+    if num < 0: 
+        print(num, end =  )""""","23-10-2024 10:08"
+426,Program_426.txt,"6 write a program to remove empty List from List using list comprehension 
+test_list = [5, 6, [], 3, [], [], 9] 
+print(The original list is :  + str(test_list)) """,
+427,Program_427.txt,"7 write a  program to remove empty tuples from a list of tuples 
+def Remove(tuples): 
+    tuples = filter(None, tuples) 
+    return tuples","23-10-2024 10:08"
+428,Program_428.txt,"Driver Code 
+tuples = [(), ('ram','15','8'), (), ('laxman', 'sita'),  
+          ('krishna', 'akbar', '45'), ('',''),()] 
+print Remove(tuples)","23-10-2024 10:08"
+429,Program_429.txt,"8 write a program to break a list into chunks of size N
+l = [1, 2, 3, 4, 5, 6, 7, 8, 9]  
+n = 4 
+x = [l[i:i + n] for i in range(0, len(l), n)]  
+print(x)","23-10-2024 10:08"
+430,Program_430.txt,"9 write a program to find the frequency of words present in a string  
+test_str = 'times of india times new india express'
+print(The original string is :  + str(test_str)) """,
+431,Program_431.txt,"10 write a program to accept a string if it contains all vowels
+def check(string): 
+  if len(set(string).intersection(AEIOUaeiou))>=5: """,
+432,Program_432.txt,"11 write a program to rotate string left and right by d length  
+def rotate(input,d):  
+    Lfirst = input[0 : d]  
+    Lsecond = input[d :]  
+    Rfirst = input[0 : len(input)-d]  
+    Rsecond = input[len(input)-d : ]  
+    print (Left Rotation : """," (Lsecond + Lfirst) ) "
+433,Program_433.txt,"12 write a program to convert key-values list to flat dictionary 
+from itertools import product 
+test_dict = {'month' : [1, 2, 3], 
+             'name' : ['Jan', 'Feb', 'March']} 
+print(The original dictionary is :  + str(test_dict)) """,
+434,Program_434.txt,"s = Hello world Hello""",
+435,Program_435.txt,"13 write a program to convert into dictionary 
+def Convert(tup, di): 
+    for a, b in tup: 
+        di.setdefault(a, []).append(b) 
+    return di 
+tups = [(A"""," 10)"
+436,Program_436.txt,"14 write program to extract digits from Tuple list 
+from itertools import chain 
+test_list = [(15, 3), (3, 9), (1, 10), (99, 2)] 
+print(The original list is :  + str(test_list)) """,
+437,Program_437.txt,"15 write a program to Remove Tuples of Length K Using list comprehension 
+test_list = [(4, 5), (4, ), (8, 6, 7), (1, ), (3, 4, 6, 7)] 
+print(The original list :  + str(test_list)) """,
+438,Program_438.txt,"16 write a program to find Maximum and Minimum K elements in Tuple 
+test_tup = (5, 20, 3, 7, 6, 8) 
+print(The original tuple is :  + str(test_tup)) """,
+439,Program_439.txt,"17 write a program to get current date and time 
+import datetime  
+current_time = datetime.datetime.now()  
+print (Time now at greenwich meridian is :  """," end = "")  """
+440,Program_440.txt,"18 write a program to convert time from 12 hour to 24 hour format 
+def convert24(str1):","23-10-2024 10:08"
+441,Program_441.txt,"Checking if last two elements of time","23-10-2024 10:08"
+442,Program_442.txt,"is AM and first two elements are 12 
+    if str1[-2:] == AM and str1[:2] == ""12"": """,
+443,Program_443.txt,"remove the AM     
+    elif str1[-2:] == AM: """,
+444,Program_444.txt,"Checking if last two elements of time","23-10-2024 10:08"
+445,Program_445.txt,"is PM and first two elements are 12    
+    elif str1[-2:] == PM and str1[:2] == ""12"": """,
+446,Program_446.txt,"add 12 to hours and remove PM 
+        return str(int(str1[:2]) + 12) + str1[2:8]","23-10-2024 10:08"
+447,Program_447.txt,"Driver Code         
+print(convert24(08:05:45 PM))""""","23-10-2024 10:08"
+448,Program_448.txt,"19 write a program to find the difference between two times","23-10-2024 10:08"
+449,Program_449.txt,"function to obtain the time in minutes form 
+def difference(h1, m1, h2, m2):","23-10-2024 10:08"
+450,Program_450.txt,"convert h1 : m1 into minutes 
+    t1 = h1 * 60 + m1","23-10-2024 10:08"
+451,Program_451.txt,"convert h2 : m2 into minutes  
+    t2 = h2 * 60 + m2 
+    if (t1 == t2):  
+        print(Both are same times) """,
+452,Program_452.txt,"calculating the difference 
+        diff = t2-t1","23-10-2024 10:08"
+453,Program_453.txt,"calculating hours from difference 
+    h = (int(diff / 60)) % 24","23-10-2024 10:08"
+454,Program_454.txt,"calculating minutes from difference 
+    m = diff % 60
+    print(h, :"""," m)"""
+455,Program_455.txt,"Driver's code 
+if __name__ == __main__: """,
+456,Program_456.txt,"20 write program to find yesterday, today and tomorrow","23-10-2024 10:08"
+457,Program_457.txt,"Import datetime and timedelta","23-10-2024 10:08"
+458,Program_458.txt,"class from datetime module 
+from datetime import datetime, timedelta","23-10-2024 10:08"
+459,Program_459.txt,"Get today's date 
+presentday = datetime.now()","23-10-2024 10:08"
+460,Program_460.txt,"or presentday = datetime.today()","23-10-2024 10:08"
+461,Program_461.txt,"Get Yesterday 
+yesterday = presentday - timedelta(1)","23-10-2024 10:08"
+462,Program_462.txt,"Get Tomorrow 
+tomorrow = presentday + timedelta(1)","23-10-2024 10:08"
+463,Program_463.txt,"strftime() is to format date according to","23-10-2024 10:08"
+464,Program_464.txt,"the need by converting them to string 
+print(Yesterday = """," yesterday.strftime('%d-%m-%Y')) "
+465,Program_465.txt,"21 write a program to remove all the characters except numbers and alphabets 
+import re","23-10-2024 10:08"
+466,Program_466.txt,"initialising string 
+ini_string = 123abcjw:"," .@! eiw"""""
+467,Program_467.txt,"printing initial string 
+print (initial string : """," ini_string) "
+468,Program_468.txt,"printing final string 
+print (final string"""," result)"""
+469,Program_469.txt,"22 write a program to merge dict using update() method
+def Merge(dict1, dict2):
+    return(dict2.update(dict1))","23-10-2024 10:08"
+470,Program_470.txt,"Driver code
+dict1 = {'a': 10, 'b': 8}
+dict2 = {'d': 6, 'c': 4}
+print(Merge(dict1, dict2))
+print(dict2)","23-10-2024 10:08"
+471,Program_471.txt,"23 write a program to print even length words in a string  
+def printWords(s): 
+    s = s.split(' ')  
+    for word in s:  
+        if len(word)%2==0: 
+            print(word)","23-10-2024 10:08"
+472,Program_472.txt,"Driver Code  
+s = hello world """,
+474,Program_474.txt,"25 write a program to print Maximum frequency character in String","23-10-2024 10:08"
+475,Program_475.txt,"initializing string  
+test_str = Helloworld""",
+476,Program_476.txt,"26 write a program to check if a string contains any special character 
+import re 
+def run(string): 
+    regex = re.compile('[@_!","23-10-2024 10:08"
+477,Program_477.txt,"$%^&*()<>?/\|}{~:]') 
+    if(regex.search(string) == None): 
+        print(String is accepted) """,
+478,Program_478.txt,"Enter the string 
+    string = Hello@World""""","23-10-2024 10:08"
+479,Program_479.txt,"calling run function  
+    run(string)","23-10-2024 10:08"
+480,Program_480.txt,"27 write a program to check if a string is binary or not 
+def check(string) : 
+    p = set(string) 
+    s = {'0', '1'} 
+    if s == p or p == {'0'} or p == {'1'}: 
+        print(Yes) """,
+481,Program_481.txt,"driver code 
+if __name__ == __main__ : """,
+482,Program_482.txt,"28 write a program to check whether a given string is Heterogram or not  
+def heterogram(input): 
+     alphabets = [ ch for ch in input if ( ord(ch) >= ord('a') and ord(ch) <= ord('z') )] 
+     if len(set(alphabets))==len(alphabets): 
+         print ('Yes') 
+     else: 
+         print ('No')","23-10-2024 10:08"
+483,Program_483.txt,"Driver program 
+if __name__ == __main__: """,
+484,Program_484.txt,"29 write a program to check whether a given key already exists in a dictionary. 
+def checkKey(dict, key): 
+    if key in dict.keys(): 
+        print(Present"," """
+485,Program_485.txt,"Driver Code 
+dict = {'a': 100, 'b':200, 'c':300} 
+key = 'b'
+checkKey(dict, key) 
+key = 'w'
+checkKey(dict, key)","23-10-2024 10:08"
+486,Program_486.txt,"30 write a program to check whether the string is a palindrome or not 
+def isPalindrome(s):
+    return s == s[::-1]
+s = malayalam""",
+487,Program_487.txt,"31 write a program that extract words starting with Vowel From A list","23-10-2024 10:08"
+488,Program_488.txt,"initializing list 
+test_list = [have"""," a"""""
+489,Program_489.txt,"printing original list 
+print(The original list is :  + str(test_list)) """,
+490,Program_490.txt,"checking for begin char 
+    for ele in vow: 
+        if sub.startswith(ele): 
+            flag = True 
+            break
+    if flag: 
+        res.append(sub)","23-10-2024 10:08"
+491,Program_491.txt,"printing result  
+print(The extracted words :  + str(res))""""","23-10-2024 10:08"
+492,Program_492.txt,"32 write a program to replace vowels by next vowel using list comprehension + zip() 
+test_str = 'helloworld'
+print(The original string is :  + str(test_str)) """,
+493,Program_493.txt,"33 write a program to reverse words of string  
+def rev_sentence(sentence):  
+    words = sentence.split(' ')  
+    reverse_sentence = ' '.join(reversed(words))  
+    return reverse_sentence  
+if __name__ == __main__:  """,
+494,Program_494.txt,"34 write a program to find the least Frequent Character in String 
+test_str = helloworld""",
+495,Program_495.txt,"35 write a program to find the most frequent element in a list 
+def most_frequent(List): 
+    counter = 0
+    num = List[0] 
+    for i in List: 
+        curr_frequency = List.count(i) 
+        if(curr_frequency> counter): 
+            counter = curr_frequency 
+            num = i 
+    return num 
+List = [2, 1, 2, 2, 1, 3] 
+print(most_frequent(List))","23-10-2024 10:08"
+496,Program_496.txt,"36 write a program insert character after every character pair","23-10-2024 10:08"
+497,Program_497.txt,"initializing string  
+test_str = HellowWorld""",
+498,Program_498.txt,"37 write a program to remove i-th indexed character from a string 
+def remove(string, i):  
+    a = string[ : i]  
+    b = string[i + 1: ] 
+    return a + b","23-10-2024 10:08"
+499,Program_499.txt,"Driver Code 
+if __name__ == '__main__': 
+    string = HellowWorld""""","23-10-2024 10:08"
+500,Program_500.txt,"Remove nth index element 
+    i = 5","23-10-2024 10:08"
+501,Program_501.txt,"Print the new string 
+    print(remove(string, i))","23-10-2024 10:08"
+502,Program_502.txt,"38 write a program to check if a string has at least one letter and one number
+def checkString(str): 
+    flag_l = False
+    flag_n = False
+    for i in str:","23-10-2024 10:08"
+503,Program_503.txt,"if string has letter 
+        if i.isalpha(): 
+            flag_l = True","23-10-2024 10:08"
+504,Program_504.txt,"if string has number 
+        if i.isdigit(): 
+            flag_n = True
+    return flag_l and flag_n","23-10-2024 10:08"
+505,Program_505.txt,"driver code 
+print(checkString('helloworld')) 
+print(checkString('helloworld2020'))","23-10-2024 10:08"
+506,Program_506.txt,"39 write a program extract least frequency element 
+from collections import defaultdict 
+test_list = [1, 3, 4, 5, 1, 3, 5]","23-10-2024 10:08"
+507,Program_507.txt,"printing original list  
+print(The original list :  + str(test_list))""""","23-10-2024 10:08"
+508,Program_508.txt,"Extract least frequency element 
+res = defaultdict(int) 
+for ele in test_list: 
+   res[ele] += 1 
+min_occ = 9999
+for ele in res: 
+    if min_occ > res[ele]: 
+        min_occ = res[ele] 
+        tar_ele = ele","23-10-2024 10:08"
+509,Program_509.txt,"printing result 
+print(The minimum occurring element is :  + str(tar_ele))""""","23-10-2024 10:08"
+510,Program_510.txt,"40 write a program to check 2 lists and find if any element is common
+def common_data(list1, list2): 
+    result = False
+    for x in list1:","23-10-2024 10:08"
+511,Program_511.txt,"traverse in the 2nd list 
+        for y in list2:","23-10-2024 10:08"
+512,Program_512.txt,"if one common 
+            if x == y: 
+                result = True
+                return result  
+    return result","23-10-2024 10:08"
+513,Program_513.txt,"driver code 
+a = [1, 2, 3, 4, 5] 
+b = [5, 6, 7, 8, 9] 
+print(common_data(a, b)) 
+a = [1, 2, 3, 4, 5] 
+b = [6, 7, 8, 9] 
+print(common_data(a, b))","23-10-2024 10:08"
+514,Program_514.txt,"41 write a program to find area of a triangle
+a = float(input('Enter first side: '))  
+b = float(input('Enter second side: '))  
+c = float(input('Enter third side: '))  
+s = (a + b + c) / 2  
+area = (s*(s-a)*(s-b)*(s-c)) ** 0.5  
+print('The area of the triangle is %0.2f' %area)","23-10-2024 10:08"
+515,Program_515.txt,"42 write a program to swap two variables
+x = input('Enter value of x: ')  
+y = input('Enter value of y: ')  
+temp = x  
+x = y  
+y = temp  
+print('The value of x after swapping: {}'.format(x))  
+print('The value of y after swapping: {}'.format(y))","23-10-2024 10:08"
+516,Program_516.txt,"43 write a program to convert kilometers to miles
+kilometers = float(input('How many kilometers?: '))  
+conv_fac = 0.621371  
+miles = kilometers * conv_fac  
+print('%0.3f kilometers is equal to %0.3f miles' %(kilometers,miles))","23-10-2024 10:08"
+517,Program_517.txt,"44 write a program to convert Celsius to Fahrenheit
+celsius = float(input('Enter temperature in Celsius: '))  
+fahrenheit = (celsius * 1.8) + 32  
+print('%0.1f  Celsius is equal to %0.1f degree Fahrenheit'%(celsius,fahrenheit))","23-10-2024 10:08"
+518,Program_518.txt,"45 write a program to display the calender
+import calendar  
+yy = int(input(Enter year: ))  """,
+519,Program_519.txt,"46 write a program to check if the year is a leap year
+year = int(input(Enter a year: ))  """,
+520,Program_520.txt,"47 write a program to check if the number is a prime numnber
+num = int(input(Enter a number: ))  """,
+521,Program_521.txt,"48 write a program to print all prime numbers between an interval
+lower = int(input(Enter lower range: ))  """,
+522,Program_522.txt,"49 write a program to find the factorial of a number
+num = int(input(Enter a number: ))  """,
+523,Program_523.txt,"50 write a program to display the multiplication table of a number
+num = int(input(Show the multiplication table of? ))""""","23-10-2024 10:08"
+524,Program_524.txt,"using for loop to iterate multiplication 10 times   
+for i in range(1,11):  
+   print(num,'x',i,'=',num*i)","23-10-2024 10:08"
+525,Program_525.txt,"51 write a program to print Fibonacci sequence
+nterms = int(input(How many terms you want? ))""""","23-10-2024 10:08"
+526,Program_526.txt,"first two terms  
+n1 = 0  
+n2 = 1  
+count = 2","23-10-2024 10:08"
+527,Program_527.txt,"check if the number of terms is valid  
+if nterms <= 0:  
+   print(Plese enter a positive integer)  """,
+528,Program_528.txt,"update values  
+       n1 = n2  
+       n2 = nth  
+       count += 1","23-10-2024 10:08"
+529,Program_529.txt,"52 write a program to check Armstrong number
+num = int(input(Enter a number: ))  """,
+530,Program_530.txt,"53 write a program to find Armstrong number in an interval
+lower = int(input(Enter lower range: ))  """,
+531,Program_531.txt,"54 write a  program to find the sum of natural numbers
+num = int(input(Enter a number: ))  """,
+532,Program_532.txt,"use while loop to iterate un till zero  
+   while(num > 0):  
+       sum += num  
+       num -= 1  
+   print(The sum is""","sum)"""
+533,Program_533.txt,"55 write a  program to find LCM
+def lcm(x, y):  
+   if x > y:  
+       greater = x  
+   else:  
+       greater = y  
+  while(True):  
+       if((greater % x == 0) and (greater % y == 0)):  
+           lcm = greater  
+           break  
+       greater += 1  
+   return lcm  
+num1 = int(input(Enter first number: ))  """,
+534,Program_534.txt,"56 write a  program to find HCF
+def hcf(x, y):  
+   if x > y:  
+       smaller = y  
+   else:  
+       smaller = x  
+   for i in range(1,smaller + 1):  
+       if((x % i == 0) and (y % i == 0)):  
+           hcf = i  
+   return hcf  
+num1 = int(input(Enter first number: ))  """,
+535,Program_535.txt,"57 write a  program to convert decimal to binary, octal and hexadecimal
+dec = int(input(Enter a decimal number: ))  """,
+536,Program_536.txt,"58 python program to find ascii value of a character
+c = input(Enter a character: )  """,
+537,Program_537.txt,"59 write a program to make a simple calculator","23-10-2024 10:08"
+538,Program_538.txt,"define functions  
+def add(x, y):  
+   This function adds two numbers""""""""",
+539,Program_539.txt,"take input from the user  
+print(Select operation.)  """,
+540,Program_540.txt,"60 write a  program to sort words in alphabetic order
+my_str = input(Enter a string: )""""","23-10-2024 10:08"
+541,Program_541.txt,"breakdown the string into a list of words  
+words = my_str.split()","23-10-2024 10:08"
+542,Program_542.txt,"sort the list  
+words.sort()","23-10-2024 10:08"
+543,Program_543.txt,"display the sorted words  
+for word in words:  
+   print(word)","23-10-2024 10:08"
+544,Program_544.txt,"61 write a program to print the elements of an array present on even position
+arr = [1, 2, 3, 4, 5];     
+print(Elements of given array present on even position: );    """,
+545,Program_545.txt,"62 write a program to sort the elements of the array
+arr = [5, 2, 8, 7, 1];     
+temp = 0;    
+print(Elements of original array: );    """,
+546,Program_546.txt,"63 write a program to check if the given number is a disarium number
+def calculateLength(n):    
+    length = 0;    
+    while(n != 0):    
+        length = length + 1;    
+        n = n//10;    
+    return length;    
+num = 175;    
+rem = sum = 0;    
+len = calculateLength(num);    
+n = num;    
+while(num > 0):    
+    rem = num%10;    
+    sum = sum + int(rem**len);    
+    num = num//10;    
+    len = len - 1;    
+if(sum == n):    
+    print(str(n) +  is a disarium number);    """,
+547,Program_547.txt,"64 write a program to print all disarium numbers between 1 and 100
+def calculateLength(n):    
+    length = 0;    
+    while(n != 0):    
+        length = length + 1;    
+        n = n//10;    
+    return length;    
+def sumOfDigits(num):    
+    rem = sum = 0;    
+    len = calculateLength(num);    
+    while(num > 0):    
+        rem = num%10;    
+        sum = sum + (rem**len);    
+        num = num//10;    
+        len = len - 1;    
+    return sum;    
+result = 0;    
+print(Disarium numbers between 1 and 100 are);    """,
+548,Program_548.txt,"65 write a program to add two matrices using nested loop
+X = [[12,7,3],
+    [4 ,5,6],
+    [7 ,8,9]]
+Y = [[5,8,1],
+    [6,7,3],
+    [4,5,9]]
+result = [[0,0,0],
+         [0,0,0],
+         [0,0,0]]","23-10-2024 10:08"
+549,Program_549.txt,"iterate through rows
+for i in range(len(X)):","23-10-2024 10:08"
+550,Program_550.txt,"iterate through columns
+   for j in range(len(X[0])):
+       result[i][j] = X[i][j] + Y[i][j]
+for r in result:
+   print(r)","23-10-2024 10:08"
+551,Program_551.txt,"66 write a program to transpose a matrix using a nested loop
+X = [[12,7],
+    [4 ,5],
+    [3 ,8]]
+result = [[0,0,0],
+         [0,0,0]]","23-10-2024 10:08"
+552,Program_552.txt,"iterate through rows
+for i in range(len(X)):","23-10-2024 10:08"
+553,Program_553.txt,"iterate through columns
+   for j in range(len(X[0])):
+       result[j][i] = X[i][j]
+for r in result:
+   print(r)","23-10-2024 10:08"
+554,Program_554.txt,"67 write a program to multiply two matrices using nested loops
+X = [[12,7,3],
+    [4 ,5,6],
+    [7 ,8,9]]
+Y = [[5,8,1,2],
+    [6,7,3,0],
+    [4,5,9,1]]
+result = [[0,0,0,0],
+         [0,0,0,0],
+         [0,0,0,0]]
+for i in range(len(X)):
+   for j in range(len(Y[0])):
+       for k in range(len(Y)):
+           result[i][j] += X[i][k] * Y[k][j]
+for r in result:
+   print(r)","23-10-2024 10:08"
+555,Program_555.txt,"68 write a program to remove punctuation from a string 
+punctuations = '''!()-[]{};:'\","<>./?@"""
+556,Program_556.txt,"$%^&*_~'''
+my_str = Hello!!!"," he said ---and went."""
+557,Program_557.txt,"69 write a program to shuffle a deck of card
+import itertools, random
+deck = list(itertools.product(range(1,14),['Spade','Heart','Diamond','Club']))
+random.shuffle(deck)
+print(You got:)""",
+558,Program_558.txt,"70 write a program to display the powers of 2 using anonymous function
+terms = 10
+result = list(map(lambda x: 2 ** x, range(terms)))
+print(The total terms are:""",terms)
+559,Program_559.txt,"71 write a program to add 2 binary numbers
+num1 = '00001'
+num2 = '10001'
+sum = bin(int(num1,2) + int(num2,2))
+print(sum)","23-10-2024 10:08"
+560,Program_560.txt,"71 write a program to find simple interest 
+p = float(input(Enter the principle amount : ))""",
+561,Program_561.txt,"calculating simple interest
+si = (p*r*t)/100","23-10-2024 10:08"
+562,Program_562.txt,"printing the values
+print(Principle amount: """," p)"
+563,Program_563.txt,"72 write a program to find compound interest 
+p = float(input(Enter the principle amount : ))""",
+564,Program_564.txt,"calculating compound interest
+ci =  p * (pow((1 + r / 100), t))","23-10-2024 10:08"
+565,Program_565.txt,"printing the values
+print(Principle amount  : """," p)"
+566,Program_566.txt,"73 write a program to print a pattern of stars (*)
+for row in range (0,5):
+    for column in range (0, row+1):
+        print (*"""," end="")"""""
+567,Program_567.txt,"ending row
+    print('\r')","23-10-2024 10:08"
+568,Program_568.txt,"74 write a program to return the absolute value in Python
+def get_absolute_value(n):
+	if n >= 0:
+		return n
+	else:
+		return -n
+print(get_absolute_value(101))","23-10-2024 10:08"
+569,Program_569.txt,"75 write a program to find the power of a number
+a = 10
+b = 3
+result = a**b
+print (a,  to the power of """," b"
+570,Program_570.txt,"76 write a program to print the binary value of the numbers from 1 to N
+n = int(input(Enter the value of N: ))""",
+571,Program_571.txt,"77 write a program to find number of bits necessary to represent an integer in binary
+num = int(input(Enter an integer number: ))""",
+572,Program_572.txt,"78 write a program to find the difference between 2 lists
+list1 = [10, 20, 30, 40, 50]
+list2 = [10, 20, 30, 60, 70]
+print list1:"""," list1"
+573,Program_573.txt,"79 write a program to add an element at specified index in a list
+list = [10, 20, 30]
+print (list)
+list.insert (1, ABC)""",
+574,Program_574.txt,"80 write a program to print EVEN length words of a string 
+str = Python is a programming language""",
+575,Program_575.txt,"81 write a program to create N copies of a given string 
+str1 = Hello""",
+576,Program_576.txt,"82 write a program to extract the mobile number from the given string in Python","23-10-2024 10:08"
+577,Program_577.txt,"importing the module
+import re","23-10-2024 10:08"
+578,Program_578.txt,"string
+string=","23-10-2024 10:08"
+579,Program_579.txt,"extracting the mobile number
+Phonenumber=re.compile(r'\d\d\d\d\d\d\d\d\d\d\d\d')
+m=Phonenumber.search(string)","23-10-2024 10:08"
+580,Program_580.txt,"printing the result 
+print('mobile number found from the string : ',m.group())","23-10-2024 10:08"
+581,Program_581.txt,"83 write a program to Capitalizes the first letter of each word in a string
+def capitalize(text):
+  return text.title()
+str1 = Hello world!""",
+582,Program_582.txt,"84 write a program to design a dice throw function
+import random
+def dice():
+    return random.choice([1,2,3,4,5,6])","23-10-2024 10:08"
+583,Program_583.txt,"85 write a program to print perfect numbers from the given list of integers
+def checkPerfectNum(n) :
+	i = 2;sum = 1;
+	while(i <= n//2 ) :
+		if (n % i == 0) :
+			sum += i			
+		i += 1
+		if sum == n :
+			print(n,end=' ')
+if __name__ == __main__ :""",
+584,Program_584.txt,"86 write a program to convert meters into yards
+num = float(input(Enter the distance measured in centimeter : ))""",
+585,Program_585.txt,"87 write a program Tower of Hanoi 
+def hanoi(x):
+    global repN
+    repN += 1
+    if x == 1:
+        return 2
+    else:
+        return 3*hanoi(x-1) + 2
+x = int(input(ENTER THE NUMBER OF DISKS: ))""",
+586,Program_586.txt,"88 write a program to find variance of a dataset
+def variance(X):
+    mean = sum(X)/len(X)
+    tot = 0.0
+    for x in X:
+        tot = tot + (x - mean)**2
+    return tot/len(X)","23-10-2024 10:08"
+587,Program_587.txt,"main code","23-10-2024 10:08"
+588,Program_588.txt,"a simple data-set 
+sample = [1, 2, 3, 4, 5] 
+print(variance of the sample is: """," variance(sample))"""
+589,Program_589.txt,"89 write a program to find winner of the day
+def find_winner_of_the_day(*match_tuple):
+    team1_count = 0
+    team2_count = 0
+    for team_name in match_tuple :
+        if team_name == Team1 :""",
+590,Program_590.txt,"90 write a program for swapping the value of two integers without third variable
+x = int(input(Enter the value of x :))""",
+591,Program_591.txt,"91 write a program to check eligibility for voting","23-10-2024 10:08"
+592,Program_592.txt,"input age
+age = int(input(Enter Age : ))""",
+593,Program_593.txt,"92 write a program to print the version information
+import sys
+print(Python version: """," sys.version)"
+594,Program_594.txt,"93 write a program to find sum of all digits of a number
+def sumDigits(num):
+  if num == 0:
+    return 0
+  else:
+    return num % 10 + sumDigits(int(num / 10))
+x = 0
+print(Number: """," x)"
+595,Program_595.txt,"94 write a program to print double quotes with the string variable
+str1 = Hello world;""",
+596,Program_596.txt,"95 write a program to Remove leading zeros from an IP address
+import re
+def removeLeadingZeros(ip):
+    modified_ip = re.sub(regex, '.', ip)
+    print(modified_ip)
+if __name__ == '__main__' : 
+	ip = 216.08.094.196""",
+597,Program_597.txt,"96 write a program for binary search
+def binary_search(l, num_find):
+    start = 0
+    end = len(l) - 1
+    mid = (start + end) // 2
+    found = False
+    position = -1
+    while start <= end:
+        if l[mid] == num_find:
+            found = True
+            position = mid
+            break
+        if num_find > l[mid]:
+            start = mid + 1
+            mid = (start + end) // 2
+        else:
+            end = mid - 1
+            mid = (start + end) // 2
+    return (found, position)
+if __name__=='__main__':
+    l = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    num = 6
+    found = binary_search(l, num)
+    if found[0]:
+        print('Number %d found at position %d'%(num, found[1]+1))
+    else:
+        print('Number %d not found'%num)","23-10-2024 10:08"
+598,Program_598.txt,"97 write a program to copy odd lines of one file to another file
+file1 = open('file1.txt', 'r') 
+file2 = open('file2.txt', 'w') 
+lines = file1.readlines() 
+type(lines) 
+for i in range(0, len(lines)): 
+	if(i % 2 != 0): 
+		file2.write(lines[i]) 
+file1.close()
+file2.close() 
+file1 = open('file1.txt', 'r') 
+file2 = open('file2.txt', 'r') 
+str1 = file1.read()
+str2 = file2.read()
+print(file1 content...)""",
+599,Program_599.txt,"to print new line
+print(file2 content...)""",
+600,Program_600.txt,"98 write a program to reverse a string that contains digits in Python
+def reverse(n):
+    s=str(n) 
+    p=s[::-1]
+    return p 
+num = int(input('Enter a positive value: '))
+print('The reverse integer:',reverse(num))","23-10-2024 10:08"
+601,Program_601.txt,"99 write a program to input a string and find total number uppercase and lowercase letters
+print(Input a string: )""",
+602,Program_602.txt,"100 write a program to input a string and find total number of letters and digits
+print(Input a string: )""",
+603,Program_603.txt,"def hanoi(disks, source, auxiliary, target):
+    if disks == 1:
+        print('Move disk 1 from peg {} to peg {}.'.format(source, target))
+        return
+    hanoi(disks - 1, source, target, auxiliary)
+    print('Move disk {} from peg {} to peg {}.'.format(disks, source, target))
+    hanoi(disks - 1, auxiliary, source, target)","23-10-2024 10:08"
+604,Program_604.txt,"class Stack:
+    def __init__(self):
+        self.q = Queue()
+    def is_empty(self):
+        return self.q.is_empty()
+    def push(self, data):
+        self.q.enqueue(data)
+    def pop(self):
+        for _ in range(self.q.get_size() - 1):
+            dequeued = self.q.dequeue()
+            self.q.enqueue(dequeued)
+        return self.q.dequeue()
+class Queue:
+    def __init__(self):
+        self.items = []
+        self.size = 0
+    def is_empty(self):
+        return self.items == []
+    def enqueue(self, data):
+        self.size += 1
+        self.items.append(data)
+    def dequeue(self):
+        self.size -= 1
+        return self.items.pop(0)
+    def get_size(self):
+        return self.size
+s = Stack()
+print('Menu')
+print('push <value>')
+print('pop')
+print('quit')
+while True:
+    do = input('What would you like to do? ').split()
+    operation = do[0].strip().lower()
+    if operation == 'push':
+        s.push(int(do[1]))
+    elif operation == 'pop':
+        if s.is_empty():
+            print('Stack is empty.')
+        else:
+            print('Popped value: ', s.pop())
+    elif operation == 'quit':
+        break","23-10-2024 10:08"
+605,Program_605.txt,"class Dequeue:
+    def __init__(self):
+        self.items = []
+    def is_empty(self):
+        return self.items == []
+    def append(self, data):
+        self.items.append(data)
+    def append_left(self, data):
+        self.items.insert(0, data)
+    def pop(self):
+        return self.items.pop()
+    def pop_left(self):
+        return self.items.pop(0)
+q = Dequeue()
+print('Menu')
+print('append <value>')
+print('appendleft <value>')
+print('pop')
+print('popleft')
+print('quit')
+while True:
+    do = input('What would you like to do? ').split()
+    operation = do[0].strip().lower()
+    if operation == 'append':
+        q.append(int(do[1]))
+    elif operation == 'appendleft':
+        q.append_left(int(do[1]))
+    elif operation == 'pop':
+        if q.is_empty():
+            print('Dequeue is empty.')
+        else:
+            print('Popped value from right: ', q.pop())
+    elif operation == 'popleft':
+        if q.is_empty():
+            print('Dequeue is empty.')
+        else:
+            print('Popped value from left: ', q.pop_left())
+    elif operation == 'quit':
+        break","23-10-2024 10:08"
+606,Program_606.txt,"class Stack:
+    def __init__(self):
+        self.items = []
+    def is_empty(self):
+        return self.items == []
+    def push(self, data):
+        self.items.append(data)
+    def pop(self):
+        return self.items.pop()
+s = Stack()
+text = ABA""",
+607,Program_607.txt,"class Stack:
+    def __init__(self):
+        self.items = []
+    def is_empty(self):
+        return self.items == []
+    def push(self, data):
+        self.items.append(data)
+    def pop(self):
+        return self.items.pop()
+s = Stack()
+exp = (x+y""",
+608,Program_608.txt,"def linear_search(alist, key):
+    Return index of key in alist. Return -1 if key not present.""""""""",
+609,Program_609.txt,"def binary_search(alist, key):
+    Search key in alist[start... end - 1].""""""""",
+610,Program_610.txt,"def binary_search_rec(alist, start, end, key):
+    Search key in alist[start... end - 1].""""""""",
+611,Program_611.txt,"def bubble_sort(alist):
+    for i in range(len(alist) - 1, 0, -1):
+        no_swap = True
+        for j in range(0, i):
+            if alist[j + 1] < alist[j]:
+                alist[j], alist[j + 1] = alist[j + 1], alist[j]
+                no_swap = False
+        if no_swap:
+            return
+alist = [2, 3, 5, 6, 4, 5]
+bubble_sort(alist)
+print('Sorted list: ', end='')
+print(alist)","23-10-2024 10:08"
+612,Program_612.txt,"def selection_sort(alist):
+    for i in range(0, len(alist) - 1):
+        smallest = i
+        for j in range(i + 1, len(alist)):
+            if alist[j] < alist[smallest]:
+                smallest = j
+        alist[i], alist[smallest] = alist[smallest], alist[i]
+alist = [2, 3, 5, 6, 4, 5]
+selection_sort(alist)
+print('Sorted list: ', end='')
+print(alist)","23-10-2024 10:08"
+613,Program_613.txt,"def insertion_sort(alist):
+    for i in range(1, len(alist)):
+        temp = alist[i]
+        j = i - 1
+        while (j >= 0 and temp < alist[j]):
+            alist[j + 1] = alist[j]
+            j = j - 1
+        alist[j + 1] = temp
+alist = [2, 3, 5, 6, 4, 5]
+insertion_sort(alist)
+print('Sorted list: ', end='')
+print(alist)","23-10-2024 10:08"
+614,Program_614.txt,"def merge_sort(alist, start, end):
+    if end - start > 1:
+        mid = (start + end)//2
+        merge_sort(alist, start, mid)
+        merge_sort(alist, mid, end)
+        merge_list(alist, start, mid, end)
+def merge_list(alist, start, mid, end):
+    left = alist[start:mid]
+    right = alist[mid:end]
+    k = start
+    i = 0
+    j = 0
+    while (start + i < mid and mid + j < end):
+        if (left[i] <= right[j]):
+            alist[k] = left[i]
+            i = i + 1
+        else:
+            alist[k] = right[j]
+            j = j + 1
+        k = k + 1
+    if start + i < mid:
+        while k < end:
+            alist[k] = left[i]
+            i = i + 1
+            k = k + 1
+    else:
+        while k < end:
+            alist[k] = right[j]
+            j = j + 1
+            k = k + 1
+alist = [2, 3, 5, 6, 4, 5]
+merge_sort(alist, 0, len(alist))
+print('Sorted list: ', end='')
+print(alist)","23-10-2024 10:08"
+615,Program_615.txt,"def quicksort(alist, start, end):
+    if end - start > 1:
+        p = partition(alist, start, end)
+        quicksort(alist, start, p)
+        quicksort(alist, p + 1, end)
+def partition(alist, start, end):
+    pivot = alist[start]
+    i = start + 1
+    j = end - 1
+    while True:
+        while (i <= j and alist[i] <= pivot):
+            i = i + 1
+        while (i <= j and alist[j] >= pivot):
+            j = j - 1
+        if i <= j:
+            alist[i], alist[j] = alist[j], alist[i]
+        else:
+            alist[start], alist[j] = alist[j], alist[start]
+            return j
+alist = [2, 3, 5, 6, 4, 5]
+quicksort(alist, 0, len(alist))
+print('Sorted list: ', end='')
+print(alist)","23-10-2024 10:08"
+616,Program_616.txt,"def heapsort(alist):
+    build_max_heap(alist)
+    for i in range(len(alist) - 1, 0, -1):
+        alist[0], alist[i] = alist[i], alist[0]
+        max_heapify(alist, index=0, size=i)
+def parent(i):
+    return (i - 1)//2
+def left(i):
+    return 2*i + 1
+def right(i):
+    return 2*i + 2
+def build_max_heap(alist):
+    length = len(alist)
+    start = parent(length - 1)
+    while start >= 0:
+        max_heapify(alist, index=start, size=length)
+        start = start - 1
+def max_heapify(alist, index, size):
+    l = left(index)
+    r = right(index)
+    if (l < size and alist[l] > alist[index]):
+        largest = l
+    else:
+        largest = index
+    if (r < size and alist[r] > alist[largest]):
+        largest = r
+    if (largest != index):
+        alist[largest], alist[index] = alist[index], alist[largest]
+        max_heapify(alist, largest, size)
+alist = [2, 3, 5, 6, 4, 5]
+heapsort(alist)
+print('Sorted list: ', end='')
+print(alist)","23-10-2024 10:08"
+617,Program_617.txt,"def counting_sort(alist, largest):
+    c = [0]*(largest + 1)
+    for i in range(len(alist)):
+        c[alist[i]] = c[alist[i]] + 1
+    c[0] = c[0] - 1 
+    for i in range(1, largest + 1):
+        c[i] = c[i] + c[i - 1]
+    result = [None]*len(alist)
+    for x in reversed(alist):
+        result[c[x]] = x
+        c[x] = c[x] - 1
+    return result
+alist = [2, 3, 5, 6, 4, 5]
+k = max(alist)
+sorted_list = counting_sort(alist, k)
+print('Sorted list: ', end='')
+print(sorted_list)","23-10-2024 10:08"
+618,Program_618.txt,"def radix_sort(alist, base=10):
+    if alist == []:
+        return
+    def key_factory(digit, base):
+        def key(alist, index):
+            return ((alist[index]//(base**digit)) % base)
+        return key
+    largest = max(alist)
+    exp = 0
+    while base**exp <= largest:
+        alist = counting_sort(alist, base - 1, key_factory(exp, base))
+        exp = exp + 1
+    return alist
+def counting_sort(alist, largest, key):
+    c = [0]*(largest + 1)
+    for i in range(len(alist)):
+        c[key(alist, i)] = c[key(alist, i)] + 1
+    c[0] = c[0] - 1
+    for i in range(1, largest + 1):
+        c[i] = c[i] + c[i - 1]
+    result = [None]*len(alist)
+    for i in range(len(alist) - 1, -1, -1):
+        result[c[key(alist, i)]] = alist[i]
+        c[key(alist, i)] = c[key(alist, i)] - 1
+    return result
+alist = [2, 3, 5, 6, 4, 5]
+sorted_list = radix_sort(alist)
+print('Sorted list: ', end='')
+print(sorted_list)","23-10-2024 10:08"
+619,Program_619.txt,"def bucket_sort(alist):
+    largest = max(alist)
+    length = len(alist)
+    size = largest/length
+    buckets = [[] for _ in range(length)]
+    for i in range(length):
+        j = int(alist[i]/size)
+        if j != length:
+            buckets[j].append(alist[i])
+        else:
+            buckets[length - 1].append(alist[i])
+    for i in range(length):
+        insertion_sort(buckets[i])
+    result = []
+    for i in range(length):
+        result = result + buckets[i]
+    return result
+def insertion_sort(alist):
+    for i in range(1, len(alist)):
+        temp = alist[i]
+        j = i - 1
+        while (j >= 0 and temp < alist[j]):
+            alist[j + 1] = alist[j]
+            j = j - 1
+        alist[j + 1] = temp
+alist = [2, 3, 5, 6, 4, 5]
+sorted_list = bucket_sort(alist)
+print('Sorted list: ', end='')
+print(sorted_list)","23-10-2024 10:08"
+620,Program_620.txt,"def gnome_sort(alist):
+    for pos in range(1, len(alist)):
+        while (pos != 0 and alist[pos] < alist[pos - 1]):
+            alist[pos], alist[pos - 1] = alist[pos - 1], alist[pos]
+            pos = pos - 1
+alist = [2, 3, 5, 6, 4, 5]
+gnome_sort(alist)
+print('Sorted list: ', end='')
+print(alist)","23-10-2024 10:08"
+621,Program_621.txt,"def cocktail_shaker_sort(alist):
+    def swap(i, j):
+        alist[i], alist[j] = alist[j], alist[i]
+    upper = len(alist) - 1
+    lower = 0
+    no_swap = False
+    while (not no_swap and upper - lower > 1):
+        no_swap = True
+        for j in range(lower, upper):
+            if alist[j + 1] < alist[j]:
+                swap(j + 1, j)
+                no_swap = False
+        upper = upper - 1
+        for j in range(upper, lower, -1):
+            if alist[j - 1] > alist[j]:
+                swap(j - 1, j)
+                no_swap = False
+        lower = lower + 1
+alist = [2, 3, 5, 6, 4, 5]
+cocktail_shaker_sort(alist)
+print('Sorted list: ', end='')
+print(alist)","23-10-2024 10:08"
+622,Program_622.txt,"def comb_sort(alist):
+    def swap(i, j):
+        alist[i], alist[j] = alist[j], alist[i]
+    gap = len(alist)
+    shrink = 1.3
+    no_swap = False
+    while not no_swap:
+        gap = int(gap/shrink)
+        if gap < 1:
+            gap = 1
+            no_swap = True
+        else:
+            no_swap = False
+        i = 0
+        while i + gap < len(alist):
+            if alist[i] > alist[i + gap]:
+                swap(i, i + gap)
+                no_swap = False
+            i = i + 1
+alist = [2, 3, 5, 6, 4, 5]
+comb_sort(alist)
+print('Sorted list: ', end='')
+print(alist)","23-10-2024 10:08"
+623,Program_623.txt,"def gaps(size):
+    length = size.bit_length()
+    for k in range(length - 1, 0, -1):
+        yield 2**k - 1
+def shell_sort(alist):
+    def insertion_sort_with_gap(gap):
+        for i in range(gap, len(alist)):
+            temp = alist[i]
+            j = i - gap
+            while (j >= 0 and temp < alist[j]):
+                alist[j + gap] = alist[j]
+                j = j - gap
+            alist[j + gap] = temp
+    for g in gaps(len(alist)):
+        insertion_sort_with_gap(g)
+alist = [2, 3, 5, 6, 4, 5]
+shell_sort(alist)
+print('Sorted list: ', end='')
+print(alist)","23-10-2024 10:08"
+624,Program_624.txt,"class rectangle():
+    def __init__(self,breadth,length):
+        self.breadth=breadth
+        self.length=length
+    def area(self):
+        return self.breadth*self.length
+a=6
+b=4
+obj=rectangle(a,b)
+print(Area of rectangle:""","obj.area())"""
+625,Program_625.txt,"class CircleArea():
+    def __init__(self,radius):
+        self.radius=radius
+    def area(self):
+        return 3.14 * self.radius * self.radius
+a=6
+obj=CircleArea(a)
+print(Area of rectangle:""","obj.area())"""
+626,Program_626.txt,"class CirclePerimeter():
+    def __init__(self,radius):
+        self.radius=radius
+    def perimeter(self):
+        return 2 * 3.14 * self.radius
+a=6
+obj=CirclePerimeter(a)
+print(Perimeter of rectangle:""","obj.perimeter())"""
+627,Program_627.txt,"class sub:  
+    def f1(self, s1):  
+        return self.f2([], sorted(s1))  
+    def f2(self, curr, s1):  
+        if s1:  
+            return self.f2(curr, s1[1:]) + self.f2(curr + [s1[0]], s1[1:])  
+        return [curr]  
+a=[2, 3, 5, 6, 4, 5]
+print(Subsets: )""",
+628,Program_628.txt,"a=str(input(Enter file name .txt extension:))""",
+629,Program_629.txt,"fname = input(Enter file name: )""",
+630,Program_630.txt,"fname = input(Enter file name: )""",
+631,Program_631.txt,"fname = input(Enter file name: )""",
+632,Program_632.txt,"def copy(from_file, to_file):
+    with open(from_file) as f:
+        with open(to_file, w) as f1:""",
+633,Program_633.txt,"def count_letter(fname, l):
+    k = 0
+    with open(fname, 'r') as f:
+        for line in f:
+            words = line.split()
+            for i in words:
+                for letter in i:
+                    if(letter==l):
+                        k=k+1
+    return k","23-10-2024 10:08"
+634,Program_634.txt,"def print_number(fname):
+    with open(fname, 'r') as f:
+        for line in f:
+            words = line.split()
+            for i in words:
+                for letter in i:
+                    if(letter.isdigit()):
+                        print(letter)","23-10-2024 10:08"
+635,Program_635.txt,"def count_blank_space(fname):
+    k = 0
+    with open(fname, 'r') as f:
+        for line in f:
+            words = line.split()
+            for i in words:
+                for letter in i:
+                    if(letter.isspace):
+                        k=k+1
+    return k","23-10-2024 10:08"
+636,Program_636.txt,"def capitalize(fname):
+    with open(fname, 'r') as f:
+        for line in f:
+            l=line.title()
+            print(l)","23-10-2024 10:08"
+637,Program_637.txt,"def reverse_content(filename):
+    for line in reversed(list(open(filename))):
+        print(line.rstrip())","23-10-2024 10:08"
+638,Program_638.txt,"a=[[1,[[2]],[[[3]]]],[[4],5]]
+flatten=lambda l: sum(map(flatten,l),[]) if isinstance(l,list) else [l]
+print(flatten(a))","23-10-2024 10:08"
+639,Program_639.txt,"def lcm(a,b):
+    lcm.multiple=lcm.multiple+b
+    if((lcm.multiple % a == 0) and (lcm.multiple % b == 0)):
+        return lcm.multiple
+    else:
+        lcm(a, b)
+    return lcm.multiple
+lcm.multiple=0
+a=4
+b=7
+if(a>b):
+    LCM=lcm(b,a)
+else:
+    LCM=lcm(a,b)
+print(LCM)","23-10-2024 10:08"
+640,Program_640.txt,"def gcd(a,b):
+    if(b==0):
+        return a
+    else:
+        return gcd(b,a%b)","23-10-2024 10:08"
+641,Program_641.txt,"def check(n, div = None):
+    if div is None:
+        div = n - 1
+    while div >= 2:
+        if n % div == 0:
+            print(Number not prime)""",
+642,Program_642.txt,"def power(base,exp):
+    if(exp==1):
+        return(base)
+    if(exp!=1):
+        return(base*power(base,exp-1))","23-10-2024 10:08"
+643,Program_643.txt,"def sum1(lst):
+    total = 0
+    for element in lst:
+        if (type(element) == type([])):
+            total = total + sum1(element)
+        else:
+            total = total + element
+    return total","23-10-2024 10:08"
+644,Program_644.txt,"def count_vowels(s):
+    count = 0
+    vowels = set(aeiou)""",
+645,Program_645.txt,"s1='python'
+s2='schoolofai'
+a=list(set(s1)&set(s2))
+print(The common letters are:)""",
+646,Program_646.txt,"s1='python'
+s2='schoolofai'
+a=list(set(s1)-set(s2))
+print(The letters are:)""",
+647,Program_647.txt,"def concat_dic(d1, d2):
+    return d1.update(d2)","23-10-2024 10:08"
+648,Program_648.txt,"def mul_dict(d):
+    tot=1
+    for i in d:    
+        tot=tot*d[i]
+    return tot","23-10-2024 10:08"
+649,Program_649.txt,"def remove_item_dict(d, key):
+    if key in d: 
+        del d[key]
+    else:
+        print(Key not found!)""",
+650,Program_650.txt,"def map_dict(keys, values):
+    return dict(zip(keys,values))","23-10-2024 10:08"
+651,Program_651.txt,"def remove(string, n):  
+      first = string[:n]   
+      last = string[n+1:]  
+      return first + last","23-10-2024 10:08"
+652,Program_652.txt,"def anagram_check(s1, s2):
+    if(sorted(s1)==sorted(s2)):
+        return True
+    else:
+        return False","23-10-2024 10:08"
+653,Program_653.txt,"def change(string):
+      return string[-1:] + string[1:-1] + string[:1]","23-10-2024 10:08"
+655,Program_655.txt,"string1='python'
+string2='theschoolofai'
+count1=0
+count2=0
+for i in string1:
+      count1=count1+1
+for j in string2:
+      count2=count2+1
+if(count1<count2):
+      print(Larger string is:)""",
+656,Program_656.txt,"string='This is an Assignment'
+count=0
+for i in string:
+      if(i.islower()):
+            count=count+1
+print(The number of lowercase characters is:)""",
+657,Program_657.txt,"a=[2, 3, 8, 9, 2, 4, 6]
+even=[]
+odd=[]
+for j in a:
+    if(j%2==0):
+        even.append(j)
+    else:
+        odd.append(j)
+print(The even list""",even)
+658,Program_658.txt,"a=[['A',34],['B',21],['C',26]]
+for i in range(0,len(a)):
+    for j in range(0,len(a)-i-1):
+        if(a[j][1]>a[j+1][1]):
+            temp=a[j]
+            a[j]=a[j+1]
+            a[j+1]=temp","23-10-2024 10:08"
+659,Program_659.txt,"a=[2, 3, 8, 9, 2, 4, 6]
+for i in range(0,len(a)):
+    for j in range(0,len(a)-i-1):
+        if(a[j]>a[j+1]):
+            temp=a[j]
+            a[j]=a[j+1]
+            a[j+1]=temp","23-10-2024 10:08"
+660,Program_660.txt,"def main(alist, blist):
+    def intersection(a, b):
+        return list(set(a) & set(b))
+    return intersection(alist, blist)","23-10-2024 10:08"
+661,Program_661.txt,"l_range=2
+u_range=5
+a=[(x,x**2) for x in range(l_range,u_range+1)]","23-10-2024 10:08"
+662,Program_662.txt,"l=6
+u=9
+a=[x for x in range(l,u+1) if (int(x**0.5))**2==x and sum(list(map(int,str(x))))<10]
+print(a)","23-10-2024 10:08"
+663,Program_663.txt,"a=[2, 3, 8, 9, 2, 4, 6]
+n = len(a)
+temp=a[0]
+a[0]=a[n-1]
+a[n-1]=temp
+print(New list is:)""",
+664,Program_664.txt,"a=[2, 3, 8, 9, 2, 4, 6]
+b = set()
+unique = []
+for x in a:
+    if x not in b:
+        unique.append(x)
+        b.add(x)
+print(Non-duplicate items:)""",
+665,Program_665.txt,"a=['the', 'tsai', 'python']
+max1=len(a[0])
+temp=a[0]
+for i in a:
+    if(len(i)>max1):
+       max1=len(i)
+       temp=i
+print(The word with the longest length is:)""",
+666,Program_666.txt,"a=['the', 'tsai', 'python' ,'a' ,'the', 'a']
+c=[]
+count=0
+b='a'
+n=3
+for i in a:
+    if(i==b):
+        count=count+1
+        if(count!=n):
+            c.append(i)
+    else:
+        c.append(i)
+if(count==0):
+    print(Item not found )""",
+667,Program_667.txt,"def find_odd_occurring(alist):
+    Return the element that occurs odd number of times in alist.""",
+668,Program_668.txt,"date=20/04/2021""",
+669,Program_669.txt,"def leapyear_check(year):
+    if(year%4==0 and year%100!=0 or year%400==0):
+        return True
+    else:
+        return False","23-10-2024 10:08"
+670,Program_670.txt,"n=24
+print(Factors are:)""",
+671,Program_671.txt,"n=60
+print(The divisors of the number are:)""",
+672,Program_672.txt,"def amstrong_check(n):
+    a=list(map(int,str(n)))
+    b=list(map(lambda x:x**3,a))
+    if(sum(b)==n):
+        return True
+    else:
+        return False","23-10-2024 10:08"
+673,Program_673.txt,"n=10
+a=[]
+for i in range(n):
+    a.append([])
+    a[i].append(1)
+    for j in range(1,i):
+        a[i].append(a[i-1][j-1]+a[i-1][j])
+    if(n!=0):
+        a[i].append(1)
+for i in range(n):
+    print(   *(n-i)""","end= """""
+674,Program_674.txt,"def perfect_no_check(n):
+    sum1 = 0
+    for i in range(1, n):
+        if(n % i == 0):
+            sum1 = sum1 + i
+    if (sum1 == n):
+        return True
+    else:
+        return False","23-10-2024 10:08"
+675,Program_675.txt,"def strong_no_check(num):
+    sum1=0
+    temp=num
+    while(num):
+        i=1
+        f=1
+        r=num%10
+        while(i<=r):
+            f=f*i
+            i=i+1
+        sum1=sum1+f
+        num=num//10
+    if(sum1==temp):
+        return True
+    else:
+        return False","23-10-2024 10:08"
+676,Program_676.txt,"def amicable_no_check(x, y):
+    sum1=0
+    sum2=0
+    for i in range(1,x):
+        if x%i==0:
+            sum1+=i
+    for j in range(1,y):
+        if y%j==0:
+            sum2+=j
+    if(sum1==y and sum2==x):
+        return True
+    else:
+        return False","23-10-2024 10:08"
+677,Program_677.txt,"def prime_no_check(a):
+    k=0
+    for i in range(2,a//2+1):
+        if(a%i==0):
+            k=k+1
+    if(k<=0):
+        return True
+    else:
+        return False","23-10-2024 10:08"
+678,Program_678.txt,"n=7
+sum1 = 0
+while(n > 0):
+    sum1=sum1+n
+    n=n-1
+print(The sum of first n natural numbers is""","sum1)"""
+679,Program_679.txt,"limit=10
+c=0
+m=2
+while(c<limit):
+    for n in range(1,m+1):
+        a=m*m-n*n
+        b=2*m*n
+        c=m*m+n*n
+        if(c>limit):
+            break
+        if(a==0 or b==0 or c==0):
+            break
+        print(a,b,c)
+    m=m+1","23-10-2024 10:08"
+680,Program_680.txt,"a=[2, 3, 8, 9, 2, 4, 6]
+k=0
+num=int(input(Enter the number to be counted:))""",
+681,Program_681.txt,"def collatz(n):
+    while n > 1:
+        print(n, end=' ')
+        if (n % 2):","23-10-2024 10:08"
+682,Program_682.txt,"n is odd
+            n = 3*n + 1
+        else:","23-10-2024 10:08"
+683,Program_683.txt,"n is even
+            n = n//2
+    print(1, end='')","23-10-2024 10:08"
+684,Program_684.txt,"def count_set_bits(n):
+    count = 0
+    while n:
+        n &= n - 1
+        count += 1
+    return count","23-10-2024 10:08"
+685,Program_685.txt,"def get_gray_codes(n):
+    Return n-bit Gray code in a list.""""""""",
+686,Program_686.txt,"def gray_to_binary(n):
+    Convert Gray codeword to binary and return it.""""""""",
+687,Program_687.txt,"def binary_to_gray(n):
+    Convert Binary to Gray codeword and return it.""""""""",
+688,Program_688.txt,"n=1023
+rev=0
+while(n>0):
+    dig=n%10
+    rev=rev*10+dig
+    n=n//10
+print(Reverse of the number:""","rev)"""
+689,Program_689.txt,"a=2
+b=9
+c=5
+d=[]
+d.append(a)
+d.append(b)
+d.append(c)
+for i in range(0,3):
+    for j in range(0,3):
+        for k in range(0,3):
+            if(i!=j&j!=k&k!=i):
+                print(d[i],d[j],d[k])","23-10-2024 10:08"
+690,Program_690.txt,"def print_identity_matrix(n):
+    for i in range(0,n):
+        for j in range(0,n):
+            if(i==j):
+                print(1""","sep= """""
+691,Program_691.txt,"class Food(object):
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+    def getprice(self):
+        return self.price
+    def __str__(self):
+        return self.name + ' : ' + str(self.getprice())
+def buildmenu(names, costs):
+    menu = []
+    for i in range(len(names)):
+        menu.append(Food(names[i], costs[i]))
+    return menu
+names = ['Coffee', 'Tea', 'Pizza', 'Burger', 'Fries', 'Apple', 'Donut', 'Cake']
+costs = [250, 150, 180, 70, 65, 55, 120, 350]
+Foods = buildmenu(names, costs)
+n = 1
+for el in Foods:
+    print(n,'. ', el)
+    n = n + 1","23-10-2024 10:08"
+692,Program_692.txt,"def fib():
+    cache = {1:1, 2:1}
+    def calc_fib(n):
+        if n not in cache:
+            print(f'Calculating fib({n})')
+            cache[n] = calc_fib(n - 1) + calc_fib(n - 2)
+        return cache[n]
+    return calc_fib","23-10-2024 10:08"
+693,Program_693.txt,"class Fib:
+    def __init__(self):
+        self.cache = {1:1, 2:1}
+    def fib(self, n):
+        if n not in self.cache:
+            print(f'Calculating fib({n})')
+            self.cache[n] = self.fib(n-1) + self.fib(n-2)
+        return self.cache[n]","23-10-2024 10:08"
+694,Program_694.txt,"def fact():
+    cache = {0:1, 1:1}
+    def calc_fib(n):
+        if n not in cache:
+            print(f'Calculating fact({n})')
+            cache[n] = calc_fib(n - 1) * n
+        return cache[n]
+    return calc_fib","23-10-2024 10:08"
+695,Program_695.txt,"class Fact:
+    def __init__(self):
+        self.cache = {0:1, 1:1}
+    def fact(self, n):
+        if n not in self.cache:
+            self.cache[n] = self.fact(n-1) * n
+        return self.cache[n]","23-10-2024 10:08"
+696,Program_696.txt,"def dot_product(a, b):
+    return sum( e[0]*e[1] for e in zip(a, b))","23-10-2024 10:08"
+697,Program_697.txt,"import math
+def sin(x,n):
+    sine = 0
+    for i in range(n):
+        sign = (-1)**i
+        pi=22/7
+        y=x*(pi/180)
+        sine = sine + ((y**(2.0*i+1))/math.factorial(2*i+1))*sign
+    return sine","23-10-2024 10:08"
+698,Program_698.txt,"def cosine(x,n):
+    cosx = 1
+    sign = -1
+    for i in range(2, n, 2):
+        pi=22/7
+        y=x*(pi/180)
+        cosx = cosx + (sign*(y**i))/math.factorial(i)
+        sign = -sign
+    return cosx","23-10-2024 10:08"
+699,Program_699.txt,"def vowel_stripping(string):
+    return .join([x for x in string if x not in('a'"",'e'
+700,Program_700.txt,"def char_shift(string, shift_count):
+    return .join([chr(ord(x)+shift_count) if (ord(x)+shift_count) <= 122 else chr(96 + (ord(x)+shift_count) - 122) for x in string])""","23-10-2024 10:08"
+701,Program_701.txt,"from functools import reduce
+def biggest_char(string):
+    biggest_chr = lambda x, y: x if ord(x) > ord(y) else y
+    return reduce(biggest_chr, string)","23-10-2024 10:08"
+702,Program_702.txt,"def interior_angle(no_of_sides):
+    return (no_of_sides - 2) * 180 / no_of_sides","23-10-2024 10:08"
+703,Program_703.txt,"import math
+def side_length(no_of_sides, circumradius):
+    return 2 * circumradius * math.sin(math.pi / no_of_sides)","23-10-2024 10:08"
+704,Program_704.txt,"import math
+def area(no_of_sides, circumradius):
+    side_length = 2 * circumradius * math.sin(math.pi / no_of_sides)
+    apothem = circumradius * math.cos(math.pi / no_of_sides)
+    return no_of_sides / 2 * side_length * apothem","23-10-2024 10:08"
+705,Program_705.txt,"sample.py
+from datetime import datetime
+from time import perf_counter
+import random
+val = 10
+counter_67 = dict()","23-10-2024 10:08"
+706,Program_706.txt,"1 Write a function to print given interger to binary
+def int_to_binary(num: int):
+    """,
+707,Program_707.txt,"2 write a function to check given string is palindrome or not ( case insensitive )
+def palindrome_str_check(value: str):
+    """,
+708,Program_708.txt,"3 write a function to check whether a given date in DD/MM/YYYY format is valid or not
+def date_validation(inputdate: str):
+    """,
+709,Program_709.txt,"4 write a function to print the count of divisor.
+def divisor_count(num: int):
+    """,
+710,Program_710.txt,"5 write a function to print the count of divisor using list comprehension
+def divisor_using_list(num: int):
+    """,
+711,Program_711.txt,"6 write a function to print merger of two dictionary
+def merge_dict(dict1: dict, dict2: dict):
+    """,
+712,Program_712.txt,"7 write a function to print second largest number in a list.
+def second_large_num(num: list):
+    if isinstance(num, list):
+        num.sort()
+        print (num[-2])
+    else:
+        raise ValueError('Invalid Input')","23-10-2024 10:08"
+713,Program_713.txt,"8 write a function to remove empty list from a list and print.
+def remove_empty_list(num1: list):
+    if isinstance(num1, list):
+        modified = list(filter(None, num1))
+        print(modified)","23-10-2024 10:08"
+714,Program_714.txt,"9 write a function to remove empty tuples from a list and print
+def remove_empty_tuple(num1: list):
+    if isinstance(num1, list):
+        modified = list(filter(None, num1))
+        print(modified)","23-10-2024 10:08"
+715,Program_715.txt,"10 write a python function to remove duplicate from a list.
+def remove_duplicates(dup_list: list):
+    print(list(set(dup_list)))","23-10-2024 10:08"
+716,Program_716.txt,"11 write a function to reverse every word in a string
+def reverse_word(sen: str):
+    words = sen.split(' ')
+    rever_word = [ i[::-1] for i in words ]
+    final_sen = ' '.join(rever_word)
+    print(final_sen)","23-10-2024 10:08"
+717,Program_717.txt,"12 function to check leap year
+def check_leap_year(year: int):
+    if not year%4:
+        print('Leap Year')
+    else:
+        print('Not a leap year')","23-10-2024 10:08"
+718,Program_718.txt,"13 function to print the multiplication table
+def maths_tables( no_ : int):
+     for i in range(1, 11):
+         print(f'{no_}x{i}={no_*i}')","23-10-2024 10:08"
+719,Program_719.txt,"14 function to check armstrong number or not
+def check_armstrong(no_: int):
+    sum_ = 0
+    temp = no_
+    while temp > 0:
+        digit = temp % 10
+        sum_ += digit ** 3 
+        temp //= 10
+    if no_ == sum_:  
+       print(f{no_} is an Armstrong number)  """,
+720,Program_720.txt,"15 function to print all armstrong in a range
+def print_all_armstrong(lower: int, upper: int):
+    for num in range(lower,upper + 1):  
+        sum_ = 0
+        temp = num
+        while temp > 0:
+            digit = temp % 10
+            sum_ += digit ** 3
+            temp //= 10
+            if num == sum_:
+                print(num)","23-10-2024 10:08"
+721,Program_721.txt,"17 function to print the lcm of two number
+def ret_lcm(x: int, y: int):
+    if x > y:
+        greater = x
+    else:
+        greater = y
+    while(True):
+        if((greater % x == 0) and (greater % y == 0)):
+            lcm = greater
+            break
+        greater += 1
+    return lcm","23-10-2024 10:08"
+722,Program_722.txt,"18 function to print the hcf of two number
+def ret_hcf(x: int, y: int):
+    if x > y:
+        greater = x
+    else:
+        greater = y
+    while(True):
+        if((greater % x == 0) and (greater % y == 0)):
+            lcm = greater  
+            break
+        greater += 1
+    return int(x*y/lcm)","23-10-2024 10:08"
+723,Program_723.txt,"19 function to print ascii value of a character.
+def show_ascii(a: str):
+    print(ord(a))","23-10-2024 10:08"
+724,Program_724.txt,"20 function to print calendar
+def show_mm_calendar(mm: int, yyyy: int):
+    import calendar
+    print(calendar.month(yyyy, mm)","23-10-2024 10:08"
+725,Program_725.txt,"21 Create a function that takes a list of numbers between 1 and 10 (excluding one number) and returns the missing number.
+def print_miss_num(l: list):
+     print(f'Missing number is {55-sum(l)}')","23-10-2024 10:08"
+726,Program_726.txt,"22 function to print marsh code equivalent from string.
+def encode_marsh(sen : str):
+    char_to_dots = { 'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '..-.',
+                      'G': '--.', 'H': '....', 'I': '..', 'J': '.---', 'K': '-.-', 'L': '.-..',
+                      'M': '--', 'N': '-.', 'O': '---', 'P': '.--.', 'Q': '--.-', 'R': '.-.',
+                      'S': '...', 'T': '-', 'U': '..-', 'V': '...-', 'W': '.--', 'X': '-..-',
+                      'Y': '-.--', 'Z': '--..', ' ': ' ', '0': '-----',
+                      '1': '.----', '2': '..---', '3': '...--', '4': '....-', '5': '.....',
+                      '6': '-....', '7': '--...', '8': '---..', '9': '----.',
+                      '&': '.-...', ': '.----.'"""," '@': '.--.-.'"
+727,Program_727.txt,"23 function to intern a sentence.
+def check_intern(a , b):
+    if a is b:
+        print(f'{a} and {b} is interned by Python')
+    else:
+        print(f'{a} and {b} is not interned by Python')","23-10-2024 10:08"
+728,Program_728.txt,"24 convert string to intern string
+def str_to_intern_str(a):
+    import sys
+    b = sys.intern(a)
+    if a is b:
+        print('Sentence is interned')
+    else:
+        raise ValueError('This should not happen')","23-10-2024 10:08"
+729,Program_729.txt,"25 write a function to print the time taken by a calc function to ferform a simple multiplication 10 Million time
+def time_calc(n: int):
+    import time
+    start = time.perf_counter()
+    for i in range(10000000):
+        n*2
+    end = time.perf_counter()
+    return end-start","23-10-2024 10:08"
+730,Program_730.txt,"26 write a function to print other value with given base to int.
+def other_int(value, b):
+    return int(value, b)","23-10-2024 10:08"
+731,Program_731.txt,"27 write a function to convert any number to its equivalent fractions.
+def no_to_fraction(no_):
+    from fractions import Fractions
+    return Fractions(no_)","23-10-2024 10:08"
+732,Program_732.txt,"28 function to check two number ( floating also )  are close or not
+def check_isclose(x, y)
+    from math import isclose
+    return isclose(x, y)","23-10-2024 10:08"
+733,Program_733.txt,"29 function to convert temperature as per user mention.
+def temp_converter(temp , temp_given_in= 'F'):
+    if temp < 0:
+        raise ValueError(Input Temperature is Negative)""",
+734,Program_734.txt,"30 function to print the regular polygon area
+def polygon_area(side_length=1, side=3):
+    from math import tan
+    if side_length <= 0:
+        raise ValueError(How come Side is zero.)""",
+735,Program_735.txt,"31 function to return speed converer as per user mention data
+def speed_converter(speed , dist = 'KM', time = 'HR'):
+    if speed < 0 or type(dist) == str or type(time) == str:
+        raise ValueError(Invalid Input Format)""",
+736,Program_736.txt,"32 function to remove values from dictionary
+def remove_dic_value(a: dict, key)
+    a.pop(key)
+    return a","23-10-2024 10:08"
+737,Program_737.txt,"33 function insert at the begining of dictionary
+def dict_in_at_begin(orgin: dict, new_: dict):
+    final = {**new_, **origin}
+    return final","23-10-2024 10:08"
+738,Program_738.txt,"34 function to convert a list of tuples into dictionary","23-10-2024 10:08"
+739,Program_739.txt,"Input  : [ ('a',1), ('b', 2), ('c', 3)]","23-10-2024 10:08"
+740,Program_740.txt,"Output : { 'a':1, 'b':2, 'c':3 }
+def list_to_dict(l: list):
+    final_dict = {}
+    for i in l:
+        final_dict[i[0]] = i[1]
+    return final_dict","23-10-2024 10:08"
+741,Program_741.txt,"35 function to sort the  dictionary with respect to key.
+def dict_sort_with_key(test_dict: dict):
+    final dict = {}
+    temp = sorted(test_dict)
+    for i in temp:
+        final_dict[i] = test_dict[a]
+    return final_dict","23-10-2024 10:08"
+742,Program_742.txt,"36 function to return mirir charcters of a letter.","23-10-2024 10:08"
+743,Program_743.txt,"Input  : paradox after N = 3","23-10-2024 10:08"
+744,Program_744.txt,"Output : paizwlc
+def mirror_character(word: str, value: int):
+    import string
+    letters = string.ascii_lowercase
+    rev_letter = letters[::-1]
+    dict_char = dict(zip(letters, rev_letter))
+    final_1 = word[0:value]
+    final_2 = []
+    for i in range(value, len(word)):
+        final_2.append(dict_char[word[i]])
+    print(final_1+''.join(final_2))","23-10-2024 10:08"
+745,Program_745.txt,"37 function to add two tuple
+def add_tuple(tup1, tup2):
+    return tup1+tup2","23-10-2024 10:08"
+746,Program_746.txt,"38 function to create a list of tuples from a given list having number and its cube in each tuple","23-10-2024 10:08"
+747,Program_747.txt,"Input  : [1,2,3]","23-10-2024 10:08"
+748,Program_748.txt,"Output : [(1,1),(2,8),(3,9)]
+def list_of_tuple( l: list):
+    final = [ (i, pow(i,3)) for i in l]
+    return final","23-10-2024 10:08"
+749,Program_749.txt,"39 function to create a dictionary of mirror of letter.
+def letter_mirror():
+    import string
+    letter = string.ascii_lowercase
+    rvr_letter = letter[::-1]
+    dict_char = dict(zip(letter, rvr_letter))
+    return dict_char","23-10-2024 10:08"
+750,Program_750.txt,"40 function to print the ascii value of letter
+def show_ascii():
+    import string
+    letter = string.ascii_letters
+    for i in letter:
+        print(i+:+str(ord(i)))""""","23-10-2024 10:08"
+751,Program_751.txt,"41 function to get the current time at GMT
+def current_time():
+    import datetime
+    print(datetime.datetime.now())","23-10-2024 10:08"
+752,Program_752.txt,"42 function to print the India Time
+def get_India_time():
+    import datetime, pytz
+    print(datetime.datetime.now( pytz.timezone('Asia/kolkata') ))","23-10-2024 10:08"
+753,Program_753.txt,"43 function to print yesterday and tomorrow date
+def tmrw_yest_time()
+    import datetime
+    yesterday = datetime.datetime.now() - datetime.timedelta(1)
+    tmrw = datetime.datetime.now() + datetime.timedelta(1)
+    print( yesterday, tmrw )","23-10-2024 10:08"
+754,Program_754.txt,"44 universal function
+def universal_func(*args, **kwargs):
+    print(args)
+    print(**kwargs)","23-10-2024 10:08"
+755,Program_755.txt,"45 logging message
+def logging(msg, *, dt = datetime.utcnow()):
+    print(f'message at {dt} was {msg}')","23-10-2024 10:08"
+756,Program_756.txt,"46 factorial of number using recursion
+def factorial(n: int):
+    if n<1:
+        return 1
+    else:
+        return n * factorial(n-1)","23-10-2024 10:08"
+757,Program_757.txt,"47 first class function
+def call_func(x, func):
+    return fn(x)","23-10-2024 10:08"
+758,Program_758.txt,"48 function to show documentation
+def doc_func(*args, **kwargs):
+    """,
+759,Program_759.txt,"49 function to show annotation
+def anno_func(a: Mandatory""",
+760,Program_760.txt,"50 function to check whether a given name is function or method
+def inspect_func(fn):
+    from inspect import isfunction, ismethod
+    print(f'{fn} is method {ismethod(func)}')
+    print(f'{fn} is function {isfunction(func)}')","23-10-2024 10:08"
+761,Program_761.txt,"51 function to print the source code of a function
+def print_so(f: Function name/class name/module):""",
+762,Program_762.txt,"52 callable_check
+def collable_check(x: Leterally can be anything):""",
+763,Program_763.txt,"52 zip two tuple
+def zip_to_tuple( tup1, tup2):
+    return zip(tup1, tup2)","23-10-2024 10:08"
+764,Program_764.txt,"53 factorial using pythonish 
+def fact_one_line(n):
+    return 1 if n < 2 else n*fact_one_line(n-1)","23-10-2024 10:08"
+765,Program_765.txt,"54 str to list
+def str_to_list(sen):
+    return list(sen)","23-10-2024 10:08"
+766,Program_766.txt,"55 string to tuple
+def sen_to_tuple(sen):
+   return tuple(sen)","23-10-2024 10:08"
+767,Program_767.txt,"56 function to all implementation
+def all_imp(a):
+   return all(a)","23-10-2024 10:08"
+768,Program_768.txt,"57 function to any implementation
+def any_imp(a):
+   return any(a)","23-10-2024 10:08"
+769,Program_769.txt,"58 function to show boolean true / false is a number
+def bool_show(a=5):
+    return True*a","23-10-2024 10:08"
+770,Program_770.txt,"59 function to show boolean true / false is a number
+def bool_show(a=5):
+    return False*a","23-10-2024 10:08"
+771,Program_771.txt,"60 function to use global varibale implementation
+def gloabl_use(n):
+    global val
+    return val * n","23-10-2024 10:08"
+772,Program_772.txt,"61 implementation of local cooncept
+def inner_show():
+    x = 'Hola'
+    def inner():
+        nonlocal x
+        x = 'Hola World'
+        print(f'Inner function x is {x}')
+    inner()
+    print(f'outer function x is {x}')","23-10-2024 10:08"
+773,Program_773.txt,"62 custom counter function
+def custom_counter():
+    """,
+774,Program_774.txt,"63 custom logging along with counter
+def custom_counter_log():
+    """,
+775,Program_775.txt,"64 function to build a time elapsed closures
+def time_elsaped()
+    start = perf_counter()
+    def inner()
+        nonlocal perf_counter
+        return perf_counter() - start
+    return inner","23-10-2024 10:08"
+776,Program_776.txt,"65 function to attach counter to function
+def attach_counter(fn: Function):""",
+777,Program_777.txt,"66 attach function closure with logs details to another function
+def attach_log(fn: function):""",
+778,Program_778.txt,"67 function counter to store the number of times multiples function called in a dictionary
+def count_func_dict(fn: Function Name):""",
+779,Program_779.txt,"68 write a function to unpack tuple of minimum 2 value to unlimited length int first two and rest
+def unpack_tuple(tup):
+    a, b , *c = tup
+    return a , b, c","23-10-2024 10:08"
+780,Program_780.txt,"69 write a function which take unlimited number and add it","23-10-2024 10:08"
+781,Program_781.txt,"Note : Number can be anything
+def add_unlimited(*args):
+    return sum(args)","23-10-2024 10:08"
+782,Program_782.txt,"70 class to print user defined message whenever object of class is called is called.
+class User:
+    def __init__(self, msg=Demo of custom message by repr and str in class):""",
+783,Program_783.txt,"71 class to show implementation of equality and less than implementation in an class
+class GqLt:
+    def __init__(self, msg=Demo of lt and eq in class):""",
+784,Program_784.txt,"72 class to show as how to make the class as callable
+class CallShow:
+    """,
+785,Program_785.txt,"73 function to store the data of IPL match in Namedtuple
+def store_ipl_date(tuple1):
+    from collections import namedtuple
+    IplData = namedtuple('IplData', 'match toss choice session1 session2 winner')
+    return IplData(*tuple1)","23-10-2024 10:08"
+786,Program_786.txt,"74 function to show namedtuple is instance of tuple
+def show_ins_tup():
+    from collections import namedtuple
+    IplData = namedtuple('IplData', 'match toss choice session1 session2 winner')
+    match1 = IplData('RCBvsKKR', 'KKR', 'bat', '229/9', '85/8', 'KKR')
+    return isinstance(match1, tuple)","23-10-2024 10:08"
+787,Program_787.txt,"75 return dot product of two vectors
+def dot_product(a: Vector1"""," b: Vector2""):"""
+788,Program_788.txt,"76 function to showcast documemtation of namedtuple
+def show_doc_named():
+    from collections import namedtuple
+    IplData = namedtuple('IplData', 'match toss choice session1 session2 winner')
+    IplData.__doc__ = 'Namedtuple class to store the IPL match data'
+    IplData.match.__doc__ = 'Team name'
+    IplData.toss.__doc__ = 'Who won the toss'
+    IplData.choice.__doc__ = 'Decision taken by wiinng team toss'
+    IplData.session1.__doc__ = 'Run scored by Team1'
+    IplData.session2.__doc__ = 'Run scored by Team2'
+    IplData.winner.__doc__ = 'Winning Team'
+    return help(IplData)","23-10-2024 10:08"
+789,Program_789.txt,"77 show all local values while one function is running
+def show_local():
+    import math
+    a = 10
+    b = 'Hello There'
+    print(locals())","23-10-2024 10:08"
+790,Program_790.txt,"78 class to show implementation of static method
+class Mathematics:
+    """,
+791,Program_791.txt,"79 class to show implementation of custom sequence of list
+class CustomList:
+    """,
+792,Program_792.txt,"80 class to show implementation of custom sequence of tuple
+class CustomTuple:
+    """,
+793,Program_793.txt,"81 generate intereger random number between user choice
+def gen_ran_int_number(lower, upper):
+    import random
+    final = [ random.randint(lower, upper) for _ in range(10) ]
+    return final","23-10-2024 10:08"
+794,Program_794.txt,"82 function to show how to use f string
+def f_string(msg: user message):""",
+795,Program_795.txt,"83 function to show reading values from list is expensive in camparison to tuple
+def compare_list_tuple():
+    from timeit import timeit
+    import random
+    l = [ random.randint(1,100) for _ in range(100) ]
+    tu = tuple(l)
+    list_time = timeit(stmt = 'max(l)', globals = locals(), number = 1)
+    tup_time = timeit(stmt = 'max(tu)', globals = locals(), number = 1)
+    if list_time > tup_time:
+        print('Hence proved')
+    else:
+        raise ValueError('You did something Wrong')","23-10-2024 10:08"
+796,Program_796.txt,"84 generate random number using the concept of iterators
+class RandomInt:
+    """,
+797,Program_797.txt,"85 distinguish iter , iterables and iterator using example to print 10 random integers number
+class RandomInt:
+    """,
+798,Program_798.txt,"86 show class of custom sequence type ,iter , iterables and iterator using example of tuple
+class CustomTupleIter:
+    """,
+799,Program_799.txt,"87 clone of orginal list with two functionality i. iterating and sequence
+class CustomListIter:
+    """,
+800,Program_800.txt,"88 write a class that act like squares and should print the squares of values and and cuustom sequence type.
+class Square:
+    def __init__(self, n):
+        self.n = n
+    def __iter__(self):
+        return self.show_sq(self.n)
+    @staticmethod
+    def show_sq(n):
+         for i in range(n):
+             yield i**2
+    def __getitem__(self, i):
+       if isinstance(i, int):
+            if i < = self.n:
+                print(i**2)
+            else:
+                raise ValueError('Index out of bound')","23-10-2024 10:08"
+801,Program_801.txt,"89 fibonaaci using generator
+def fibo(n):
+    x = 0
+    yield x
+    y = 1
+    yield y
+    for i in range(n-1):
+        x, y = y, x+y
+        yield y","23-10-2024 10:08"
+802,Program_802.txt,"90 show generator is faster than list
+def show_gen_fast():
+    from timeit import timeit
+    dt = timeit([num for num in fib(100) ]"""," globals = globals()"
+803,Program_803.txt,"Add two strings
+def add_str(str1,str2):
+   return str1 + str2","23-10-2024 10:08"
+804,Program_804.txt,"we are dealing with multiple inheritance
+class A(object):
+    def foo(self):
+        print(class A)""",
+805,Program_805.txt,"This is how pass works in case of multiple inheritance
+class A1(object):
+   def foo(self):
+      print(class A1)""",
+806,Program_806.txt,"List are mutable
+a_list = []
+print('ID:', id(a_list))
+a_list += [1]
+print('ID (+=):', id(a_list))
+a_list = a_list + [2]
+print('ID (list = list + ...):', id(a_list))","23-10-2024 10:08"
+807,Program_807.txt,"All blank lists are not the same 
+a_list = []
+print(a_list, '\nID (initial):',id(a_list), '\n')
+a_list.append(1)
+print(a_list, '\nID (append):',id(a_list), '\n')
+a_list.extend([2])
+print(a_list, '\nID (extend):',id(a_list))","23-10-2024 10:08"
+808,Program_808.txt,"True and False in the datetime module
+from platform import python_version
+import datetime
+print(Current python version: """," python_version())"
+809,Program_809.txt,"Python version <= 3.4.5 evaluates this statement to False","23-10-2024 10:08"
+810,Program_810.txt,"Python reuses objects for small integers - use == for equality"""," is"" for identity"""
+811,Program_811.txt,"equality operator works this way
+print('256 is 257-1', 256 is 257-1)
+print('257 is 258-1', 257 is 258 - 1)
+print('-5 is -6+1', -5 is -6+1)
+print('-7 is -6-1', -7 is -6-1)","23-10-2024 10:08"
+812,Program_812.txt,"illustrate the test for equality (==) vs. identity (is)
+a = 'hello world!'
+b = 'hello world!'
+print('a is b,', a is b)
+print('a == b,', a == b)","23-10-2024 10:08"
+813,Program_813.txt,"We would think that identity would always imply equality, but this is not always true, as we can see in the next example:
+a = float('nan')
+print('a is a,', a is a)
+print('a == a,', a == a)","23-10-2024 10:08"
+814,Program_814.txt,"Shallow copy in python
+list1 = [1,2]
+list2 = list1","23-10-2024 10:08"
+815,Program_815.txt,"reference
+list3 = list1[:]","23-10-2024 10:08"
+816,Program_816.txt,"shallow copy
+list4 = list1.copy()","23-10-2024 10:08"
+817,Program_817.txt,"shallow copy
+print('IDs:\nlist1: {}\nlist2: {}\nlist3: {}\nlist4: {}\n'
+      .format(id(list1), id(list2), id(list3), id(list4)))","23-10-2024 10:08"
+818,Program_818.txt,"Deepcopy in python
+list1 = [[1],[2]]
+list2 = list1.copy()","23-10-2024 10:08"
+819,Program_819.txt,"shallow copy
+list3 = deepcopy(list1)","23-10-2024 10:08"
+820,Program_820.txt,"deep copy
+print('IDs:\nlist1: {}\nlist2: {}\nlist3: {}\n'
+      .format(id(list1), id(list2), id(list3)))","23-10-2024 10:08"
+821,Program_821.txt,"logical or logical and 
+result = (2 or 3) * (5 and 7)
+print('2 * 7 =', result)","23-10-2024 10:08"
+822,Program_822.txt,"Don't use mutable objects as default arguments for functions!
+def append_to_list(value, def_list=[]):
+    def_list.append(value)
+    return def_list
+my_list = append_to_list(1)
+print(my_list)
+my_other_list = append_to_list(2)
+print(my_other_list)","23-10-2024 10:08"
+823,Program_823.txt,"args and sleep 
+import time
+def report_arg(my_default=time.time()):
+    print(my_default)
+report_arg()
+time.sleep(5)
+report_arg()","23-10-2024 10:08"
+824,Program_824.txt,"Generators are consumed 
+gen = (i for i in range(5))
+print('2 in gen,', 2 in gen)
+print('3 in gen,', 3 in gen)
+print('1 in gen,', 1 in gen)","23-10-2024 10:08"
+825,Program_825.txt,"Convert generator to a list
+gen = (i for i in range(5))
+a_list = list(gen)","23-10-2024 10:08"
+826,Program_826.txt,"Usage of bool class
+print('isinstance(True, int):', isinstance(True, int))","23-10-2024 10:08"
+827,Program_827.txt,"Create list of numbers using lambda function but not the right way
+my_list = [lambda: i for i in range(5)]
+for l in my_list:
+    print(l())","23-10-2024 10:08"
+828,Program_828.txt,"print the numbers properly by creating a list
+my_list = [lambda x=i: x for i in range(5)]
+for l in my_list:
+    print(l())","23-10-2024 10:08"
+829,Program_829.txt,"local scope representation
+x = 0
+def in_func():
+    x = 1
+    print('in_func:', x)","23-10-2024 10:08"
+830,Program_830.txt,"Global Scope Representation
+x = 0
+def in_func1():
+    x = 1
+    print('in_func1:', x)
+print('global:', x)","23-10-2024 10:08"
+831,Program_831.txt,"Usage of global keyword
+x = 0
+def in_func2():
+    global x
+    x = 1
+    print('in_func2:', x)
+in_func2()
+print('global:', x)","23-10-2024 10:08"
+832,Program_832.txt,"local vs. enclosed 
+def outer():
+    x = 1
+    print('outer before:', x)
+    def inner():
+        x = 2
+        print(inner:"""," x)"
+833,Program_833.txt,"nonlocal keyword comes in handy 
+def outer():
+    x = 1
+    print('outer before:', x)
+    def inner():
+        nonlocal x
+        x = 2
+        print(inner:"""," x)"
+834,Program_834.txt,"tuples are immutable 
+tup = (1,)
+tup[0] += 1","23-10-2024 10:08"
+835,Program_835.txt,"what if we put a mutable object into the immutable tuple
+tup1 = ([],)
+print('tup before: ', tup1)
+tup1[0] += [1]","23-10-2024 10:08"
+836,Program_836.txt,"there are ways to modify the mutable contents of the tuple without raising the TypeError
+tup = ([],)
+print('tup before: ', tup)
+tup[0].extend([1])
+print('tup after: ', tup)","23-10-2024 10:08"
+837,Program_837.txt,"another way to append data to tuple
+tup = ([],)
+print('tup before: ', tup)
+tup[0].append(1)
+print('tup after: ', tup)","23-10-2024 10:08"
+838,Program_838.txt,"Add tuples like numerics
+my_tup = (1,)
+my_tup += (4,)
+my_tup = my_tup + (5,)
+print(my_tup)","23-10-2024 10:08"
+839,Program_839.txt,"What happens behind the curtains is that the tuple is not modified"""," but a new object is generated every time"
+840,Program_840.txt,"Create a plain list
+def plainlist(n=100000):
+    my_list = []
+    for i in range(n):
+        if i % 5 == 0:
+            my_list.append(i)
+    return my_list","23-10-2024 10:08"
+841,Program_841.txt,"Create a list comprehension
+def listcompr(n=100000):
+    my_list = [i for i in range(n) if i % 5 == 0]
+    return my_list","23-10-2024 10:08"
+842,Program_842.txt,"Create a Generator
+def generator(n=100000):
+    my_gen = (i for i in range(n) if i % 5 == 0)
+    return my_gen","23-10-2024 10:08"
+843,Program_843.txt,"Generator using yield function
+def generator_yield(n=100000):
+    for i in range(n):
+        if i % 5 == 0:
+            yield i","23-10-2024 10:08"
+844,Program_844.txt,"Generators are faster than list comprehension
+import timeit
+def test_plainlist(plain_list):
+    for i in plain_list():
+        pass
+def test_listcompr(listcompr):
+    for i in listcompr():
+        pass
+def test_generator(generator):
+    for i in generator():
+        pass
+def test_generator_yield(generator_yield):
+    for i in generator_yield():
+        pass
+print('plain_list:     ', end='')
+%timeit test_plainlist(plainlist)
+print('\nlistcompr:     ', end='')
+%timeit test_listcompr(listcompr)
+print('\ngenerator:     ', end='')
+%timeit test_generator(generator)
+print('\ngenerator_yield:     ', end='')
+%timeit test_generator_yield(generator_yield)","23-10-2024 10:08"
+845,Program_845.txt,"Public vs. private class methods and name mangling
+    def public_method(self):
+        print('Hello public world!')
+    def __private_method(self):
+        print('Hello private world!')
+    def call_private_method_in_class(self):
+        self.__private_method()
+my_instance = my_class()
+my_instance.public_method()
+my_instance._my_class__private_method()
+my_instance.call_private_method_in_class()","23-10-2024 10:08"
+846,Program_846.txt,"The consequences of modifying a list when looping through it
+a = [1, 2, 3, 4, 5]
+for i in a:
+    if not i % 2:
+        a.remove(i)
+print(a)
+b = [2, 4, 5, 6]
+for i in b:
+     if not i % 2:
+         b.remove(i)
+print(b)","23-10-2024 10:08"
+847,Program_847.txt,"iterating through the list index by index
+b = [2, 4, 5, 6]
+for index, item in enumerate(b):
+    print(index, item)
+    if not item % 2:
+        b.remove(item)
+print(b)","23-10-2024 10:08"
+848,Program_848.txt,"Dynamic binding and typos in variable names
+print('first list:')
+for i in range(3):
+    print(i)
+print('\nsecond list:')
+for j in range(3):
+    print(i)","23-10-2024 10:08"
+849,Program_849.txt,"I (intentionally) made typo here!","23-10-2024 10:08"
+850,Program_850.txt,"List slicing using indexes that are out of range""",
+851,Program_851.txt,"Reusing global variable names and UnboundLocalErrors
+def my_func():
+    print(var)
+var = 'global'
+my_func()","23-10-2024 10:08"
+852,Program_852.txt,"No problem to use the same variable name in the local scope without affecting the local counterpart:
+def my_func():
+    var = 'locally changed'
+var = 'global'
+my_func()
+print(var)","23-10-2024 10:08"
+853,Program_853.txt,"we have to be careful if we use a variable name that occurs in the global scope, and we want to access it in the local function scope if we want to reuse this name:
+def my_func():
+    print(var)","23-10-2024 10:08"
+854,Program_854.txt,"want to access global variable
+    var = 'locally changed'","23-10-2024 10:08"
+855,Program_855.txt,"but Python thinks we forgot to define the local variable!
+var = 'global'
+my_func()","23-10-2024 10:08"
+856,Program_856.txt,"We have to use the global keyword!
+def my_func():
+    global var
+    print(var)","23-10-2024 10:08"
+857,Program_857.txt,"want to access global variable
+    var = 'locally changed'","23-10-2024 10:08"
+858,Program_858.txt,"changes the gobal variable
+var = 'global'
+my_func()
+print(var)","23-10-2024 10:08"
+859,Program_859.txt,"Creating copies of mutable objects
+my_list1 = [[1, 2, 3]] * 2
+print('initially ---> ', my_list1)","23-10-2024 10:08"
+860,Program_860.txt,"modify the 1st element of the 2nd sublist
+my_list1[1][0] = 'a'
+print(after my_list1[1][0] = 'a' ---> """," my_list1)"""
+861,Program_861.txt,"we should better create new objects:""",
+862,Program_862.txt,"modify the 1st element of the 2nd sublist
+my_list2[1][0] = 'a'
+print(after my_list2[1][0] = 'a':  ---> """," my_list2)"
+863,Program_863.txt,"Abortive statements in finally blocks
+def try_finally1():
+    try:
+        print('in try:')
+        print('do some stuff')
+        float('abc')
+    except ValueError:
+        print('an error occurred')
+    else:
+        print('no error occurred')
+    finally:
+        print('always execute finally')
+try_finally1()","23-10-2024 10:08"
+864,Program_864.txt,"Assigning types to variables as values
+a_var = str
+a_var(123)","23-10-2024 10:08"
+865,Program_865.txt,"random choice 
+from random import choice
+a, b, c = float, int, str
+for i in range(5):
+    j = choice([a,b,c])(i)
+    print(j, type(j))","23-10-2024 10:08"
+866,Program_866.txt,"Only the first clause of generators is evaluated immediately
+gen_fails = (i for i in 1/0)","23-10-2024 10:08"
+867,Program_867.txt,"lazy evaluation 
+gen_succeeds = (i for i in range(5) for j in 1/0)
+print('But obviously fails when we iterate ...')
+for i in gen_succeeds:
+    print(i)","23-10-2024 10:08"
+868,Program_868.txt,"Usge of *args 
+def a_func(*args):
+    print('type of args:', type(args))
+    print('args contents:', args)
+    print('1st argument:', args[0])
+a_func(0, 1, 'a', 'b', 'c')","23-10-2024 10:08"
+869,Program_869.txt,"usage of kwargs
+def b_func(**kwargs):
+    print('type of kwargs:', type(kwargs))
+    print('kwargs contents: ', kwargs)
+    print('value of argument a:', kwargs['a'])
+b_func(a=1, b=2, c=3, d=4)","23-10-2024 10:08"
+870,Program_870.txt,"Unpacking of iterables
+val1, *vals = [1, 2, 3, 4, 5]
+print('val1:', val1)
+print('vals:', vals)","23-10-2024 10:08"
+871,Program_871.txt,"if else for 
+for i in range(5):
+    if i == 1:
+        print('in for')
+else:
+    print('in else')
+print('after for-loop')","23-10-2024 10:08"
+872,Program_872.txt,"usage of break
+for i in range(5):
+    if i == 1:
+        break
+else:
+    print('in else')
+print('after for-loop')","23-10-2024 10:08"
+873,Program_873.txt,"conditional usecase
+a_list = [1,2]
+if a_list[0] == 1:
+    print('Hello, World!')
+else:
+    print('Bye, World!')","23-10-2024 10:08"
+874,Program_874.txt,"Usage of while
+i = 0
+while i < 2:
+    print(i)
+    i += 1
+else:
+    print('in else')","23-10-2024 10:08"
+875,Program_875.txt,"Interning of string 
+hello1 = 'Hello'
+hello2 = 'Hell' + 'o'
+hello3 = 'Hell'
+hello3 = hello3 + 'o'
+print('hello1 is hello2:', hello1 is hello2)
+print('hello1 is hello3:', hello1 is hello3)","23-10-2024 10:08"
+876,Program_876.txt,"Disassembler 
+import dis
+def hello1_func():
+    s = 'Hello'
+    return s
+dis.dis(hello1_func)","23-10-2024 10:08"
+877,Program_877.txt,"example to demonstrate usage of docstring
+def greet(name):
+    """,
+878,Program_878.txt,"Absolute function
+def absolute_value(num):
+    This function returns the absolute""",
+879,Program_879.txt,"usage of dictionary
+dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
+print dict['Name']: """," dict['Name']"
+880,Program_880.txt,"accept user input
+str = input(Enter your input: )""",
+881,Program_881.txt,"A recursive function to find nth catalan number 
+def catalan(n):","23-10-2024 10:08"
+882,Program_882.txt,"Base Case 
+    if n <= 1: 
+        return 1","23-10-2024 10:08"
+883,Program_883.txt,"Catalan(n) is the sum","23-10-2024 10:08"
+884,Program_884.txt,"of catalan(i)*catalan(n-i-1) 
+    res = 0
+    for i in range(n): 
+        res += catalan(i) * catalan(n-i-1) 
+    return res","23-10-2024 10:08"
+885,Program_885.txt,"Driver Code 
+for i in range(10): 
+    print (catalan(i))","23-10-2024 10:08"
