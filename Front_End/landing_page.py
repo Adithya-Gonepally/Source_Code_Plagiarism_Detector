@@ -1,11 +1,8 @@
 
 import streamlit as st
-def show_landing_page():
-    # Title and description
-    st.markdown("<h1>Source Code Plagiarism Detector</h1>", unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center; margin-left:50px'>Detect similarities in source code efficiently and accurately.</p>",
-                unsafe_allow_html=True)
+import streamlit as st
 
+def show_landing_page():
     # Custom styles applied to Streamlit buttons
     st.markdown("""
         <style>
@@ -18,24 +15,34 @@ def show_landing_page():
                 border-radius: 8px;            
                 cursor: pointer;
                 transition: all 0.3s ease;     
-                margin-left: 110px;             
+                margin: 20px auto;             
+                display: block;
             }
             .stButton > button:hover {
-                background-color: rgba(255, 255, 255, 0.2); /* White tint on hover */
-                transform: scale(1.05);                     /* Slight zoom effect */
-                color: black;                               /* Black text */
+                background-color: rgba(255, 255, 255, 0.2);
+                transform: scale(1.05);
+                color: black;
             }
-            .centered-button {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-top: 50px;  /* Add some space from the top */
+            .landing-title {
+                text-align: center;
+                color: white;
+                font-size: 40px;
+                margin-top: 50px;
+            }
+            .landing-description {
+                text-align: center;
+                color: #cccccc;
+                font-size: 20px;
+                margin-top: 10px;
             }
         </style>
     """, unsafe_allow_html=True)
 
-    # Centered "Check" button with session navigation
-    col1, col2, col3 = st.columns([1, 2, 1])  # Use columns to center the button
-    with col2:
-        if st.button("Check"):
-            st.session_state["current_page"] = "code_editor"
+    # Title and description
+    st.markdown("<div class='landing-title'>Source Code Plagiarism Detector</div>", unsafe_allow_html=True)
+    st.markdown("<div class='landing-description'>Detect similarities in source code efficiently and accurately.</div>", unsafe_allow_html=True)
+
+    # Centered "Check" button
+    if st.button("Check"):
+        st.session_state["current_page"] = "code_editor"
+
