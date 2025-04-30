@@ -1,11 +1,17 @@
 import pandas as pd
+import os
+
 def load_code_database(language):
-    # Choose the correct database file based on the language
     filepath = {
-        "Python": '../database/python_database.csv',
-        "C": '../database/c_database.csv'
+        "Python": os.path.join("..", "database", "python_database.csv"),
+        "C": os.path.join("..", "database", "c_database.csv")
     }[language]
-    return pd.read_csv(filepath, on_bad_lines='skip')  # Default sep is ','
+
+    if not os.path.exists(filepath):
+        raise FileNotFoundError(f"Could not find the file: {filepath}")
+
+    return pd.read_csv(filepath, on_bad_lines='skip')
+
 
 
 def get_code_samples(language):
