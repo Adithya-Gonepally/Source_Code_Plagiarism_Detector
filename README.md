@@ -14,7 +14,7 @@ A web-based plagiarism detection system for source code using Jaccard Similarity
 👉 https://sourcecodeplagiarismdetector-adithya.streamlit.app/
 
 **📁 How to Run Locally**
-git clone https://github.com/your-username/plagiarism-detector.git
+git clone https://github.com/Adithya-Gonepally/Source_Code_Plagiarism_Detector.git
 cd plagiarism-detector
 pip install -r requirements.txt
 streamlit run editor.py
