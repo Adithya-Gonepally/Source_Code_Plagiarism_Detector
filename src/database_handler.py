@@ -2,8 +2,8 @@ import pandas as pd
 def load_code_database(language):
     # Choose the correct database file based on the language
     filepath = {
-        "Python": '..\database\python_database.csv',
-        "C": '..\database\c_database.csv'
+        "Python": '../database/python_database.csv',
+        "C": '../database/c_database.csv'
     }[language]
     return pd.read_csv(filepath, on_bad_lines='skip')  # Default sep is ','
 
